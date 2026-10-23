@@ -1,0 +1,50 @@
+[
+  {
+    "stream": "human",
+    "model": "binomial",
+    "total_observed": 122,
+    "total_replicated_95": [
+      94.0,
+      153.0
+    ],
+    "cells_inside_pointwise_95": 39,
+    "cells": 40,
+    "seed": 20261023
+  },
+  {
+    "stream": "human",
+    "model": "betabinomial",
+    "total_observed": 122,
+    "total_replicated_95": [
+      64.0,
+      215.0
+    ],
+    "cells_inside_pointwise_95": 39,
+    "cells": 40,
+    "seed": 20261023
+  },
+  {
+    "stream": "culture",
+    "model": "binomial",
+    "total_observed": 160,
+    "total_replicated_95": [
+      129.0,
+      192.0
+    ],
+    "cells_inside_pointwise_95": 39,
+    "cells": 40,
+    "seed": 20261023
+  },
+  {
+    "stream": "culture",
+    "model": "betabinomial",
+    "total_observed": 160,
+    "total_replicated_95": [
+      49.0,
+      267.0250000000001
+    ],
+    "cells_inside_pointwise_95": 40,
+    "cells": 40,
+    "seed": 20261023
+  }
+]

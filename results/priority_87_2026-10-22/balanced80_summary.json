@@ -1,0 +1,100 @@
+{
+  "n": 80,
+  "years": [
+    2015,
+    2016,
+    2017,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "totals": {
+    "positive": 253,
+    "tested": 8131,
+    "leptospira_culture_positive": 288,
+    "effective_cultures": 6324,
+    "rodents_caught": 6804,
+    "trap_setting_count": 246657
+  },
+  "correlations": {
+    "culture": {
+      "rho": 0.7619047619047619,
+      "p_two_sided": 0.03675595238095238,
+      "permutations": 40320
+    },
+    "capture": {
+      "rho": 0.5714285714285714,
+      "p_two_sided": 0.151140873015873,
+      "permutations": 40320
+    }
+  },
+  "permutation": {
+    "n_permutations": 40320,
+    "exchangeable_groups": [
+      [
+        "Junshan",
+        "Lianyuan",
+        "Liling",
+        "Liuyang",
+        "Ningxiang",
+        "Shuangfeng",
+        "Xiangtan",
+        "Yuanjiang"
+      ]
+    ],
+    "enrichment": {
+      "observed_difference": 0.5342606604600053,
+      "null_median": 0.0,
+      "null_interval": [
+        -0.968350025619247,
+        0.9683500256192492
+      ],
+      "p_two_sided": 0.3380952380952381
+    },
+    "coverage": {
+      "observed_difference": 0.2213438735177865,
+      "null_median": 0.0,
+      "null_interval": [
+        -0.3794466403162055,
+        0.3794466403162055
+      ],
+      "p_two_sided": 0.3142857142857143
+    }
+  },
+  "loyo": [
+    {
+      "rule": "Capture",
+      "positive_selected": 121.0,
+      "positive_all": 253,
+      "tested_selected": 3006.0,
+      "tested_all": 8131,
+      "coverage": 0.4782608695652174,
+      "testing_share": 0.3696962243266511,
+      "enrichment": 1.2936590586942058
+    },
+    {
+      "rule": "Compound",
+      "positive_selected": 177.0,
+      "positive_all": 253,
+      "tested_selected": 3112.0,
+      "tested_all": 8131,
+      "coverage": 0.6996047430830039,
+      "testing_share": 0.3827327511991145,
+      "enrichment": 1.8279197191542111
+    },
+    {
+      "rule": "Culture",
+      "positive_selected": 177.0,
+      "positive_all": 253,
+      "tested_selected": 3112.0,
+      "tested_all": 8131,
+      "coverage": 0.6996047430830039,
+      "testing_share": 0.3827327511991145,
+      "enrichment": 1.8279197191542111
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "primary_panel": 87,
+  "years": 11,
+  "sampling_diagnostics": [
+    {
+      "fit": "culture_arithmetic_effective",
+      "max_rhat": 1.0026922034160224,
+      "min_bulk_ess": 2658.035608808172,
+      "min_tail_ess": 2701.319037087437,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "culture_balanced80",
+      "max_rhat": 1.002495339205469,
+      "min_bulk_ess": 3302.8496767445577,
+      "min_tail_ess": 2476.437500684909,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "culture_betabinomial",
+      "max_rhat": 1.001808866917452,
+      "min_bulk_ess": 4271.28966822059,
+      "min_tail_ess": 4097.240940571581,
+      "divergences": 0,
+      "draws": 6000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "culture_binomial",
+      "max_rhat": 1.0027084010873242,
+      "min_bulk_ess": 2416.747756419581,
+      "min_tail_ess": 3542.762257235808,
+      "divergences": 0,
+      "draws": 6000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "culture_early63",
+      "max_rhat": 1.003398749648939,
+      "min_bulk_ess": 2490.62670905157,
+      "min_tail_ess": 2563.1819539573626,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_balanced80",
+      "max_rhat": 1.003923193101775,
+      "min_bulk_ess": 3109.7275847592628,
+      "min_tail_ess": 2279.70447778569,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_betabinomial",
+      "max_rhat": 1.0019610177204727,
+      "min_bulk_ess": 4515.951435852793,
+      "min_tail_ess": 4090.773261071474,
+      "divergences": 0,
+      "draws": 6000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_binomial",
+      "max_rhat": 1.0024920791118423,
+      "min_bulk_ess": 4679.25144147934,
+      "min_tail_ess": 3999.7855443498174,
+      "divergences": 0,
+      "draws": 6000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_early63",
+      "max_rhat": 1.0035672796053816,
+      "min_bulk_ess": 2414.7550366494647,
+      "min_tail_ess": 2662.2753189387763,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_sensitivity_phi_mean10",
+      "max_rhat": 1.001500334188788,
+      "min_bulk_ess": 3565.149713657023,
+      "min_tail_ess": 2420.828014817253,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_sensitivity_phi_mean40",
+      "max_rhat": 1.0031112342584927,
+      "min_bulk_ess": 3235.827993503904,
+      "min_tail_ess": 2458.744515752624,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_sensitivity_site035",
+      "max_rhat": 1.0035019771427585,
+      "min_bulk_ess": 3150.118796309016,
+      "min_tail_ess": 2421.970583200447,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_sensitivity_site140",
+      "max_rhat": 1.0037247091683412,
+      "min_bulk_ess": 2858.720079307712,
+      "min_tail_ess": 2437.998253913759,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    },
+    {
+      "fit": "human_sensitivity_year100",
+      "max_rhat": 1.0024834314793132,
+      "min_bulk_ess": 3111.891586539057,
+      "min_tail_ess": 2564.325760311643,
+      "divergences": 0,
+      "draws": 4000,
+      "max_tree_depth": 4
+    }
+  ],
+  "models": [
+    {
+      "model": "binomial",
+      "rho_median": 0.8095238095238095,
+      "rho_mean": 0.8038412698412699,
+      "rho_low": 0.6666666666666666,
+      "rho_high": 0.9523809523809523,
+      "probability_positive": 1.0,
+      "same_top3": 0.75
+    },
+    {
+      "model": "betabinomial",
+      "rho_median": 0.6666666666666666,
+      "rho_mean": 0.6321825396825396,
+      "rho_low": 0.14285714285714285,
+      "rho_high": 0.9285714285714286,
+      "probability_positive": 0.992,
+      "same_top3": 0.2778333333333333
+    }
+  ],
+  "decision_contrasts": [
+    {
+      "fit": "human_balanced80",
+      "median": 0.08099471969039693,
+      "mean": 0.07926320727151082,
+      "low": -0.10298422076793948,
+      "high": 0.2603918638387052,
+      "probability_culture_better": 0.8015
+    },
+    {
+      "fit": "human_betabinomial",
+      "median": 0.10566975088673342,
+      "mean": 0.10426232789829881,
+      "low": -0.06727105874305651,
+      "high": 0.27115101893597765,
+      "probability_culture_better": 0.8851666666666667
+    },
+    {
+      "fit": "human_binomial",
+      "median": 0.2286629903865235,
+      "mean": 0.22853568895577306,
+      "low": 0.14786788322578487,
+      "high": 0.30826463126192877,
+      "probability_culture_better": 1.0
+    },
+    {
+      "fit": "human_early63",
+      "median": 0.12085141077388958,
+      "mean": 0.12038354159445878,
+      "low": -0.05189183984304354,
+      "high": 0.287010980805498,
+      "probability_culture_better": 0.90975
+    },
+    {
+      "fit": "human_sensitivity_phi_mean10",
+      "median": 0.10117026244737518,
+      "mean": 0.09930644839957745,
+      "low": -0.07525901871241071,
+      "high": 0.2681549846464112,
+      "probability_culture_better": 0.86875
+    },
+    {
+      "fit": "human_sensitivity_phi_mean40",
+      "median": 0.10778284674487817,
+      "mean": 0.1074958811782405,
+      "low": -0.06777185216075343,
+      "high": 0.2756636536386864,
+      "probability_culture_better": 0.893
+    },
+    {
+      "fit": "human_sensitivity_site035",
+      "median": 0.06701201259413733,
+      "mean": 0.06725680015233688,
+      "low": -0.06822063635068129,
+      "high": 0.1989328468622984,
+      "probability_culture_better": 0.844
+    },
+    {
+      "fit": "human_sensitivity_site140",
+      "median": 0.12592284644632026,
+      "mean": 0.12315057412631157,
+      "low": -0.06729282827719221,
+      "high": 0.2997759654643686,
+      "probability_culture_better": 0.8975
+    },
+    {
+      "fit": "human_sensitivity_year100",
+      "median": 0.12728863146255423,
+      "mean": 0.12675734357212698,
+      "low": -0.033210814059736575,
+      "high": 0.27753549977198294,
+      "probability_culture_better": 0.94275
+    }
+  ],
+  "primary_count_hash": "104950665e427f12b2506dbdc535c55a28f18b08e2f92fe8f09463836f1b523b"
+}

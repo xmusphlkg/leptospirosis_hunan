@@ -1,0 +1,10 @@
+held_out_year,rule,eligible_sites,selected_sites,admissible_sets,all_tied_sets,positive_selected,positive_all,tested_selected,tested_all,coverage,testing_share,enrichment
+2023,Culture,8,Junshan;Liuyang;Xiangtan,1,Junshan;Liuyang;Xiangtan,0.0,4,320.0,823,0.0,0.3888213851761847,0.0
+2023,Capture,8,Liuyang;Xiangtan;Yuanjiang,1,Liuyang;Xiangtan;Yuanjiang,0.0,4,320.0,823,0.0,0.3888213851761847,0.0
+2023,Compound,8,Lianyuan;Liuyang;Xiangtan,1,Lianyuan;Liuyang;Xiangtan,2.0,4,320.0,823,0.5,0.3888213851761847,1.2859375
+2024,Culture,8,Lianyuan;Liuyang;Xiangtan,1,Lianyuan;Liuyang;Xiangtan,1.0,1,315.0,823,1.0,0.3827460510328068,2.6126984126984127
+2024,Capture,8,Liuyang;Shuangfeng;Yuanjiang,1,Liuyang;Shuangfeng;Yuanjiang,0.0,1,300.0,823,0.0,0.3645200486026732,0.0
+2024,Compound,8,Lianyuan;Liuyang;Shuangfeng,1,Lianyuan;Liuyang;Shuangfeng,1.0,1,300.0,823,1.0,0.3645200486026732,2.743333333333333
+2025,Culture,8,Junshan;Liuyang;Xiangtan,1,Junshan;Liuyang;Xiangtan,3.0,6,305.0,807,0.5,0.37794299876084264,1.3229508196721311
+2025,Capture,8,Shuangfeng;Xiangtan;Yuanjiang,1,Shuangfeng;Xiangtan;Yuanjiang,0.0,6,305.0,807,0.0,0.37794299876084264,0.0
+2025,Compound,8,Liuyang;Shuangfeng;Xiangtan,1,Liuyang;Shuangfeng;Xiangtan,3.0,6,305.0,807,0.5,0.37794299876084264,1.3229508196721311

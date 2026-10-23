@@ -1,0 +1,102 @@
+{
+  "n": 79,
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "totals": {
+    "positive": 195,
+    "tested": 8030,
+    "leptospira_culture_positive": 241,
+    "effective_cultures": 6059,
+    "rodents_caught": 6412,
+    "trap_setting_count": 246106
+  },
+  "correlations": {
+    "culture": {
+      "rho": 0.7065994945288228,
+      "p_two_sided": 0.05952380952380952,
+      "permutations": 40320
+    },
+    "capture": {
+      "rho": 0.5714285714285714,
+      "p_two_sided": 0.151140873015873,
+      "permutations": 40320
+    }
+  },
+  "permutation": {
+    "n_permutations": 5040,
+    "exchangeable_groups": [
+      [
+        "Junshan",
+        "Lianyuan",
+        "Liling",
+        "Liuyang",
+        "Ningxiang",
+        "Shuangfeng",
+        "Xiangtan"
+      ],
+      [
+        "Yuanjiang"
+      ]
+    ],
+    "enrichment": {
+      "observed_difference": 0.5682990557912895,
+      "null_median": 0.031972924043627865,
+      "null_interval": [
+        -0.6618820854370392,
+        0.9364630093539016
+      ],
+      "p_two_sided": 0.24642857142857144
+    },
+    "coverage": {
+      "observed_difference": 0.23589743589743595,
+      "null_median": 0.010256410256410256,
+      "null_interval": [
+        -0.26153846153846155,
+        0.36923076923076925
+      ],
+      "p_two_sided": 0.22023809523809523
+    }
+  },
+  "loyo": [
+    {
+      "rule": "Capture",
+      "positive_selected": 80.0,
+      "positive_all": 195,
+      "tested_selected": 3002.0,
+      "tested_all": 8030,
+      "coverage": 0.41025641025641024,
+      "testing_share": 0.37384806973848067,
+      "enrichment": 1.0973880660756077
+    },
+    {
+      "rule": "Compound",
+      "positive_selected": 126.0,
+      "positive_all": 195,
+      "tested_selected": 3115.0,
+      "tested_all": 8030,
+      "coverage": 0.6461538461538462,
+      "testing_share": 0.387920298879203,
+      "enrichment": 1.6656871218668972
+    },
+    {
+      "rule": "Culture",
+      "positive_selected": 126.0,
+      "positive_all": 195,
+      "tested_selected": 3115.0,
+      "tested_all": 8030,
+      "coverage": 0.6461538461538462,
+      "testing_share": 0.387920298879203,
+      "enrichment": 1.6656871218668972
+    }
+  ]
+}

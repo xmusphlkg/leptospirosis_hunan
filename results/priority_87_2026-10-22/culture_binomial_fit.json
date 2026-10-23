@@ -1,0 +1,35 @@
+{
+  "counts_sha256": "218aabd18c7162527f4ee4ad106c751c73d774ab1bbaa4395a4fd042a69abcdb",
+  "family": "binomial",
+  "site_tau": 0.7,
+  "year_tau": 0.5,
+  "phi_rate": 0.1,
+  "draws": 1500,
+  "tune": 1500,
+  "chains": 4,
+  "sampler": "nutpie",
+  "sites": [
+    "Junshan",
+    "Lianyuan",
+    "Liling",
+    "Liuyang",
+    "Ningxiang",
+    "Shuangfeng",
+    "Xiangtan",
+    "Yuanjiang"
+  ],
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "seed": 20288853
+}

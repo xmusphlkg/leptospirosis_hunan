@@ -1,0 +1,93 @@
+{
+  "n": 24,
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "totals": {
+    "positive": 11,
+    "tested": 2453,
+    "leptospira_culture_positive": 26,
+    "effective_cultures": 1837,
+    "rodents_caught": 1902,
+    "trap_setting_count": 76466
+  },
+  "correlations": {
+    "culture": {
+      "rho": 0.34686724257884766,
+      "p_two_sided": 0.3869047619047619,
+      "permutations": 40320
+    },
+    "capture": {
+      "rho": -0.038310708317909774,
+      "p_two_sided": 0.9404761904761905,
+      "permutations": 40320
+    }
+  },
+  "permutation": {
+    "n_permutations": 40320,
+    "exchangeable_groups": [
+      [
+        "Junshan",
+        "Lianyuan",
+        "Liling",
+        "Liuyang",
+        "Ningxiang",
+        "Shuangfeng",
+        "Xiangtan",
+        "Yuanjiang"
+      ]
+    ],
+    "enrichment": {
+      "observed_difference": 0.948936170212766,
+      "null_median": -0.0075715134538664125,
+      "null_interval": [
+        -1.4335533052679486,
+        1.4042845483769055
+      ],
+      "p_two_sided": 0.18675595238095238
+    },
+    "coverage": {
+      "observed_difference": 0.36363636363636365,
+      "null_median": 0.0,
+      "null_interval": [
+        -0.5454545454545454,
+        0.5454545454545454
+      ],
+      "p_two_sided": 0.2119047619047619
+    }
+  },
+  "loyo": [
+    {
+      "rule": "Capture",
+      "positive_selected": 0.0,
+      "positive_all": 11,
+      "tested_selected": 925.0,
+      "tested_all": 2453,
+      "coverage": 0.0,
+      "testing_share": 0.3770892784345699,
+      "enrichment": 0.0
+    },
+    {
+      "rule": "Compound",
+      "positive_selected": 6.0,
+      "positive_all": 11,
+      "tested_selected": 925.0,
+      "tested_all": 2453,
+      "coverage": 0.5454545454545454,
+      "testing_share": 0.3770892784345699,
+      "enrichment": 1.4464864864864864
+    },
+    {
+      "rule": "Culture",
+      "positive_selected": 4.0,
+      "positive_all": 11,
+      "tested_selected": 940.0,
+      "tested_all": 2453,
+      "coverage": 0.36363636363636365,
+      "testing_share": 0.3832042397064819,
+      "enrichment": 0.948936170212766
+    }
+  ]
+}

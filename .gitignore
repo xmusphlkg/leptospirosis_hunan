@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/figure1_map_cache/*
+!data/figure1_map_cache/README.md

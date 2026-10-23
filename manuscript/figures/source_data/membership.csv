@@ -1,0 +1,265 @@
+year,site,rule,selection_probability,available,held_out_year,selected,site_label,status
+2015,Junshan,Culture,0,TRUE,2015,FALSE,Junshan,Not selected
+2015,Lianyuan,Culture,1,TRUE,2015,TRUE,Lianyuan,Selected
+2015,Liling,Culture,0,TRUE,2015,FALSE,Liling,Not selected
+2015,Liuyang,Culture,0,TRUE,2015,FALSE,Liuyang,Not selected
+2015,Ningxiang,Culture,0,TRUE,2015,FALSE,Ningxiang,Not selected
+2015,Shuangfeng,Culture,1,TRUE,2015,TRUE,Shuangfeng,Selected
+2015,Xiangtan,Culture,1,TRUE,2015,TRUE,Xiangtan,Selected
+2015,Yuanjiang,Culture,0,TRUE,2015,FALSE,Yuanjiang,Not selected
+2015,Junshan,Capture,0,TRUE,2015,FALSE,Junshan,Not selected
+2015,Lianyuan,Capture,0,TRUE,2015,FALSE,Lianyuan,Not selected
+2015,Liling,Capture,0,TRUE,2015,FALSE,Liling,Not selected
+2015,Liuyang,Capture,1,TRUE,2015,TRUE,Liuyang,Selected
+2015,Ningxiang,Capture,0,TRUE,2015,FALSE,Ningxiang,Not selected
+2015,Shuangfeng,Capture,1,TRUE,2015,TRUE,Shuangfeng,Selected
+2015,Xiangtan,Capture,0,TRUE,2015,FALSE,Xiangtan,Not selected
+2015,Yuanjiang,Capture,1,TRUE,2015,TRUE,Yuanjiang,Selected
+2015,Junshan,Compound,0,TRUE,2015,FALSE,Junshan,Not selected
+2015,Lianyuan,Compound,1,TRUE,2015,TRUE,Lianyuan,Selected
+2015,Liling,Compound,0,TRUE,2015,FALSE,Liling,Not selected
+2015,Liuyang,Compound,0,TRUE,2015,FALSE,Liuyang,Not selected
+2015,Ningxiang,Compound,0,TRUE,2015,FALSE,Ningxiang,Not selected
+2015,Shuangfeng,Compound,1,TRUE,2015,TRUE,Shuangfeng,Selected
+2015,Xiangtan,Compound,1,TRUE,2015,TRUE,Xiangtan,Selected
+2015,Yuanjiang,Compound,0,TRUE,2015,FALSE,Yuanjiang,Not selected
+2016,Junshan,Culture,0,TRUE,2016,FALSE,Junshan,Not selected
+2016,Lianyuan,Culture,1,TRUE,2016,TRUE,Lianyuan,Selected
+2016,Liling,Culture,0,TRUE,2016,FALSE,Liling,Not selected
+2016,Liuyang,Culture,0,TRUE,2016,FALSE,Liuyang,Not selected
+2016,Ningxiang,Culture,0,TRUE,2016,FALSE,Ningxiang,Not selected
+2016,Shuangfeng,Culture,1,TRUE,2016,TRUE,Shuangfeng,Selected
+2016,Xiangtan,Culture,1,TRUE,2016,TRUE,Xiangtan,Selected
+2016,Yuanjiang,Culture,0,TRUE,2016,FALSE,Yuanjiang,Not selected
+2016,Junshan,Capture,0,TRUE,2016,FALSE,Junshan,Not selected
+2016,Lianyuan,Capture,0,TRUE,2016,FALSE,Lianyuan,Not selected
+2016,Liling,Capture,0,TRUE,2016,FALSE,Liling,Not selected
+2016,Liuyang,Capture,1,TRUE,2016,TRUE,Liuyang,Selected
+2016,Ningxiang,Capture,0,TRUE,2016,FALSE,Ningxiang,Not selected
+2016,Shuangfeng,Capture,1,TRUE,2016,TRUE,Shuangfeng,Selected
+2016,Xiangtan,Capture,0,TRUE,2016,FALSE,Xiangtan,Not selected
+2016,Yuanjiang,Capture,1,TRUE,2016,TRUE,Yuanjiang,Selected
+2016,Junshan,Compound,0,TRUE,2016,FALSE,Junshan,Not selected
+2016,Lianyuan,Compound,1,TRUE,2016,TRUE,Lianyuan,Selected
+2016,Liling,Compound,0,TRUE,2016,FALSE,Liling,Not selected
+2016,Liuyang,Compound,0,TRUE,2016,FALSE,Liuyang,Not selected
+2016,Ningxiang,Compound,0,TRUE,2016,FALSE,Ningxiang,Not selected
+2016,Shuangfeng,Compound,1,TRUE,2016,TRUE,Shuangfeng,Selected
+2016,Xiangtan,Compound,1,TRUE,2016,TRUE,Xiangtan,Selected
+2016,Yuanjiang,Compound,0,TRUE,2016,FALSE,Yuanjiang,Not selected
+2017,Junshan,Culture,0,TRUE,2017,FALSE,Junshan,Not selected
+2017,Lianyuan,Culture,1,TRUE,2017,TRUE,Lianyuan,Selected
+2017,Liling,Culture,0,TRUE,2017,FALSE,Liling,Not selected
+2017,Liuyang,Culture,0,TRUE,2017,FALSE,Liuyang,Not selected
+2017,Ningxiang,Culture,0,TRUE,2017,FALSE,Ningxiang,Not selected
+2017,Shuangfeng,Culture,1,TRUE,2017,TRUE,Shuangfeng,Selected
+2017,Xiangtan,Culture,1,TRUE,2017,TRUE,Xiangtan,Selected
+2017,Yuanjiang,Culture,0,TRUE,2017,FALSE,Yuanjiang,Not selected
+2017,Junshan,Capture,0,TRUE,2017,FALSE,Junshan,Not selected
+2017,Lianyuan,Capture,0,TRUE,2017,FALSE,Lianyuan,Not selected
+2017,Liling,Capture,0,TRUE,2017,FALSE,Liling,Not selected
+2017,Liuyang,Capture,1,TRUE,2017,TRUE,Liuyang,Selected
+2017,Ningxiang,Capture,0,TRUE,2017,FALSE,Ningxiang,Not selected
+2017,Shuangfeng,Capture,1,TRUE,2017,TRUE,Shuangfeng,Selected
+2017,Xiangtan,Capture,0,TRUE,2017,FALSE,Xiangtan,Not selected
+2017,Yuanjiang,Capture,1,TRUE,2017,TRUE,Yuanjiang,Selected
+2017,Junshan,Compound,0,TRUE,2017,FALSE,Junshan,Not selected
+2017,Lianyuan,Compound,1,TRUE,2017,TRUE,Lianyuan,Selected
+2017,Liling,Compound,0,TRUE,2017,FALSE,Liling,Not selected
+2017,Liuyang,Compound,0,TRUE,2017,FALSE,Liuyang,Not selected
+2017,Ningxiang,Compound,0,TRUE,2017,FALSE,Ningxiang,Not selected
+2017,Shuangfeng,Compound,1,TRUE,2017,TRUE,Shuangfeng,Selected
+2017,Xiangtan,Compound,1,TRUE,2017,TRUE,Xiangtan,Selected
+2017,Yuanjiang,Compound,0,TRUE,2017,FALSE,Yuanjiang,Not selected
+2018,Junshan,Culture,0,TRUE,2018,FALSE,Junshan,Not selected
+2018,Lianyuan,Culture,1,TRUE,2018,TRUE,Lianyuan,Selected
+2018,Liling,Culture,0,TRUE,2018,FALSE,Liling,Not selected
+2018,Liuyang,Culture,0,TRUE,2018,FALSE,Liuyang,Not selected
+2018,Ningxiang,Culture,0,TRUE,2018,FALSE,Ningxiang,Not selected
+2018,Shuangfeng,Culture,1,TRUE,2018,TRUE,Shuangfeng,Selected
+2018,Xiangtan,Culture,1,TRUE,2018,TRUE,Xiangtan,Selected
+2018,Yuanjiang,Culture,0,FALSE,2018,FALSE,Yuanjiang,No monitoring
+2018,Junshan,Capture,0,TRUE,2018,FALSE,Junshan,Not selected
+2018,Lianyuan,Capture,1,TRUE,2018,TRUE,Lianyuan,Selected
+2018,Liling,Capture,0,TRUE,2018,FALSE,Liling,Not selected
+2018,Liuyang,Capture,1,TRUE,2018,TRUE,Liuyang,Selected
+2018,Ningxiang,Capture,0,TRUE,2018,FALSE,Ningxiang,Not selected
+2018,Shuangfeng,Capture,1,TRUE,2018,TRUE,Shuangfeng,Selected
+2018,Xiangtan,Capture,0,TRUE,2018,FALSE,Xiangtan,Not selected
+2018,Yuanjiang,Capture,0,FALSE,2018,FALSE,Yuanjiang,No monitoring
+2018,Junshan,Compound,0,TRUE,2018,FALSE,Junshan,Not selected
+2018,Lianyuan,Compound,1,TRUE,2018,TRUE,Lianyuan,Selected
+2018,Liling,Compound,0,TRUE,2018,FALSE,Liling,Not selected
+2018,Liuyang,Compound,0,TRUE,2018,FALSE,Liuyang,Not selected
+2018,Ningxiang,Compound,0,TRUE,2018,FALSE,Ningxiang,Not selected
+2018,Shuangfeng,Compound,1,TRUE,2018,TRUE,Shuangfeng,Selected
+2018,Xiangtan,Compound,1,TRUE,2018,TRUE,Xiangtan,Selected
+2018,Yuanjiang,Compound,0,FALSE,2018,FALSE,Yuanjiang,No monitoring
+2019,Junshan,Culture,0,TRUE,2019,FALSE,Junshan,Not selected
+2019,Lianyuan,Culture,1,TRUE,2019,TRUE,Lianyuan,Selected
+2019,Liling,Culture,0,TRUE,2019,FALSE,Liling,Not selected
+2019,Liuyang,Culture,0,TRUE,2019,FALSE,Liuyang,Not selected
+2019,Ningxiang,Culture,0,TRUE,2019,FALSE,Ningxiang,Not selected
+2019,Shuangfeng,Culture,1,TRUE,2019,TRUE,Shuangfeng,Selected
+2019,Xiangtan,Culture,1,TRUE,2019,TRUE,Xiangtan,Selected
+2019,Yuanjiang,Culture,0,TRUE,2019,FALSE,Yuanjiang,Not selected
+2019,Junshan,Capture,0,TRUE,2019,FALSE,Junshan,Not selected
+2019,Lianyuan,Capture,0,TRUE,2019,FALSE,Lianyuan,Not selected
+2019,Liling,Capture,0,TRUE,2019,FALSE,Liling,Not selected
+2019,Liuyang,Capture,1,TRUE,2019,TRUE,Liuyang,Selected
+2019,Ningxiang,Capture,0,TRUE,2019,FALSE,Ningxiang,Not selected
+2019,Shuangfeng,Capture,1,TRUE,2019,TRUE,Shuangfeng,Selected
+2019,Xiangtan,Capture,0,TRUE,2019,FALSE,Xiangtan,Not selected
+2019,Yuanjiang,Capture,1,TRUE,2019,TRUE,Yuanjiang,Selected
+2019,Junshan,Compound,0,TRUE,2019,FALSE,Junshan,Not selected
+2019,Lianyuan,Compound,1,TRUE,2019,TRUE,Lianyuan,Selected
+2019,Liling,Compound,0,TRUE,2019,FALSE,Liling,Not selected
+2019,Liuyang,Compound,0,TRUE,2019,FALSE,Liuyang,Not selected
+2019,Ningxiang,Compound,0,TRUE,2019,FALSE,Ningxiang,Not selected
+2019,Shuangfeng,Compound,1,TRUE,2019,TRUE,Shuangfeng,Selected
+2019,Xiangtan,Compound,1,TRUE,2019,TRUE,Xiangtan,Selected
+2019,Yuanjiang,Compound,0,TRUE,2019,FALSE,Yuanjiang,Not selected
+2020,Junshan,Culture,0,TRUE,2020,FALSE,Junshan,Not selected
+2020,Lianyuan,Culture,1,TRUE,2020,TRUE,Lianyuan,Selected
+2020,Liling,Culture,0,TRUE,2020,FALSE,Liling,Not selected
+2020,Liuyang,Culture,0,TRUE,2020,FALSE,Liuyang,Not selected
+2020,Ningxiang,Culture,0,TRUE,2020,FALSE,Ningxiang,Not selected
+2020,Shuangfeng,Culture,1,TRUE,2020,TRUE,Shuangfeng,Selected
+2020,Xiangtan,Culture,1,TRUE,2020,TRUE,Xiangtan,Selected
+2020,Yuanjiang,Culture,0,TRUE,2020,FALSE,Yuanjiang,Not selected
+2020,Junshan,Capture,0,TRUE,2020,FALSE,Junshan,Not selected
+2020,Lianyuan,Capture,0,TRUE,2020,FALSE,Lianyuan,Not selected
+2020,Liling,Capture,0,TRUE,2020,FALSE,Liling,Not selected
+2020,Liuyang,Capture,1,TRUE,2020,TRUE,Liuyang,Selected
+2020,Ningxiang,Capture,0,TRUE,2020,FALSE,Ningxiang,Not selected
+2020,Shuangfeng,Capture,1,TRUE,2020,TRUE,Shuangfeng,Selected
+2020,Xiangtan,Capture,0,TRUE,2020,FALSE,Xiangtan,Not selected
+2020,Yuanjiang,Capture,1,TRUE,2020,TRUE,Yuanjiang,Selected
+2020,Junshan,Compound,0,TRUE,2020,FALSE,Junshan,Not selected
+2020,Lianyuan,Compound,1,TRUE,2020,TRUE,Lianyuan,Selected
+2020,Liling,Compound,0,TRUE,2020,FALSE,Liling,Not selected
+2020,Liuyang,Compound,0,TRUE,2020,FALSE,Liuyang,Not selected
+2020,Ningxiang,Compound,0,TRUE,2020,FALSE,Ningxiang,Not selected
+2020,Shuangfeng,Compound,1,TRUE,2020,TRUE,Shuangfeng,Selected
+2020,Xiangtan,Compound,1,TRUE,2020,TRUE,Xiangtan,Selected
+2020,Yuanjiang,Compound,0,TRUE,2020,FALSE,Yuanjiang,Not selected
+2021,Junshan,Culture,0,TRUE,2021,FALSE,Junshan,Not selected
+2021,Lianyuan,Culture,1,TRUE,2021,TRUE,Lianyuan,Selected
+2021,Liling,Culture,0,TRUE,2021,FALSE,Liling,Not selected
+2021,Liuyang,Culture,0,TRUE,2021,FALSE,Liuyang,Not selected
+2021,Ningxiang,Culture,0,TRUE,2021,FALSE,Ningxiang,Not selected
+2021,Shuangfeng,Culture,1,TRUE,2021,TRUE,Shuangfeng,Selected
+2021,Xiangtan,Culture,1,TRUE,2021,TRUE,Xiangtan,Selected
+2021,Yuanjiang,Culture,0,TRUE,2021,FALSE,Yuanjiang,Not selected
+2021,Junshan,Capture,0,TRUE,2021,FALSE,Junshan,Not selected
+2021,Lianyuan,Capture,0,TRUE,2021,FALSE,Lianyuan,Not selected
+2021,Liling,Capture,0,TRUE,2021,FALSE,Liling,Not selected
+2021,Liuyang,Capture,1,TRUE,2021,TRUE,Liuyang,Selected
+2021,Ningxiang,Capture,0,TRUE,2021,FALSE,Ningxiang,Not selected
+2021,Shuangfeng,Capture,1,TRUE,2021,TRUE,Shuangfeng,Selected
+2021,Xiangtan,Capture,0,TRUE,2021,FALSE,Xiangtan,Not selected
+2021,Yuanjiang,Capture,1,TRUE,2021,TRUE,Yuanjiang,Selected
+2021,Junshan,Compound,0,TRUE,2021,FALSE,Junshan,Not selected
+2021,Lianyuan,Compound,1,TRUE,2021,TRUE,Lianyuan,Selected
+2021,Liling,Compound,0,TRUE,2021,FALSE,Liling,Not selected
+2021,Liuyang,Compound,0,TRUE,2021,FALSE,Liuyang,Not selected
+2021,Ningxiang,Compound,0,TRUE,2021,FALSE,Ningxiang,Not selected
+2021,Shuangfeng,Compound,1,TRUE,2021,TRUE,Shuangfeng,Selected
+2021,Xiangtan,Compound,1,TRUE,2021,TRUE,Xiangtan,Selected
+2021,Yuanjiang,Compound,0,TRUE,2021,FALSE,Yuanjiang,Not selected
+2022,Junshan,Culture,0,TRUE,2022,FALSE,Junshan,Not selected
+2022,Lianyuan,Culture,1,TRUE,2022,TRUE,Lianyuan,Selected
+2022,Liling,Culture,0,TRUE,2022,FALSE,Liling,Not selected
+2022,Liuyang,Culture,0,TRUE,2022,FALSE,Liuyang,Not selected
+2022,Ningxiang,Culture,0,TRUE,2022,FALSE,Ningxiang,Not selected
+2022,Shuangfeng,Culture,1,TRUE,2022,TRUE,Shuangfeng,Selected
+2022,Xiangtan,Culture,1,TRUE,2022,TRUE,Xiangtan,Selected
+2022,Yuanjiang,Culture,0,TRUE,2022,FALSE,Yuanjiang,Not selected
+2022,Junshan,Capture,0,TRUE,2022,FALSE,Junshan,Not selected
+2022,Lianyuan,Capture,0,TRUE,2022,FALSE,Lianyuan,Not selected
+2022,Liling,Capture,0,TRUE,2022,FALSE,Liling,Not selected
+2022,Liuyang,Capture,1,TRUE,2022,TRUE,Liuyang,Selected
+2022,Ningxiang,Capture,0,TRUE,2022,FALSE,Ningxiang,Not selected
+2022,Shuangfeng,Capture,1,TRUE,2022,TRUE,Shuangfeng,Selected
+2022,Xiangtan,Capture,0,TRUE,2022,FALSE,Xiangtan,Not selected
+2022,Yuanjiang,Capture,1,TRUE,2022,TRUE,Yuanjiang,Selected
+2022,Junshan,Compound,0,TRUE,2022,FALSE,Junshan,Not selected
+2022,Lianyuan,Compound,1,TRUE,2022,TRUE,Lianyuan,Selected
+2022,Liling,Compound,0,TRUE,2022,FALSE,Liling,Not selected
+2022,Liuyang,Compound,0,TRUE,2022,FALSE,Liuyang,Not selected
+2022,Ningxiang,Compound,0,TRUE,2022,FALSE,Ningxiang,Not selected
+2022,Shuangfeng,Compound,1,TRUE,2022,TRUE,Shuangfeng,Selected
+2022,Xiangtan,Compound,1,TRUE,2022,TRUE,Xiangtan,Selected
+2022,Yuanjiang,Compound,0,TRUE,2022,FALSE,Yuanjiang,Not selected
+2023,Junshan,Culture,0,TRUE,2023,FALSE,Junshan,Not selected
+2023,Lianyuan,Culture,1,TRUE,2023,TRUE,Lianyuan,Selected
+2023,Liling,Culture,0,TRUE,2023,FALSE,Liling,Not selected
+2023,Liuyang,Culture,0,TRUE,2023,FALSE,Liuyang,Not selected
+2023,Ningxiang,Culture,0,TRUE,2023,FALSE,Ningxiang,Not selected
+2023,Shuangfeng,Culture,1,TRUE,2023,TRUE,Shuangfeng,Selected
+2023,Xiangtan,Culture,1,TRUE,2023,TRUE,Xiangtan,Selected
+2023,Yuanjiang,Culture,0,TRUE,2023,FALSE,Yuanjiang,Not selected
+2023,Junshan,Capture,0,TRUE,2023,FALSE,Junshan,Not selected
+2023,Lianyuan,Capture,0,TRUE,2023,FALSE,Lianyuan,Not selected
+2023,Liling,Capture,0,TRUE,2023,FALSE,Liling,Not selected
+2023,Liuyang,Capture,1,TRUE,2023,TRUE,Liuyang,Selected
+2023,Ningxiang,Capture,0,TRUE,2023,FALSE,Ningxiang,Not selected
+2023,Shuangfeng,Capture,1,TRUE,2023,TRUE,Shuangfeng,Selected
+2023,Xiangtan,Capture,0,TRUE,2023,FALSE,Xiangtan,Not selected
+2023,Yuanjiang,Capture,1,TRUE,2023,TRUE,Yuanjiang,Selected
+2023,Junshan,Compound,0,TRUE,2023,FALSE,Junshan,Not selected
+2023,Lianyuan,Compound,1,TRUE,2023,TRUE,Lianyuan,Selected
+2023,Liling,Compound,0,TRUE,2023,FALSE,Liling,Not selected
+2023,Liuyang,Compound,0,TRUE,2023,FALSE,Liuyang,Not selected
+2023,Ningxiang,Compound,0,TRUE,2023,FALSE,Ningxiang,Not selected
+2023,Shuangfeng,Compound,1,TRUE,2023,TRUE,Shuangfeng,Selected
+2023,Xiangtan,Compound,1,TRUE,2023,TRUE,Xiangtan,Selected
+2023,Yuanjiang,Compound,0,TRUE,2023,FALSE,Yuanjiang,Not selected
+2024,Junshan,Culture,0,TRUE,2024,FALSE,Junshan,Not selected
+2024,Lianyuan,Culture,1,TRUE,2024,TRUE,Lianyuan,Selected
+2024,Liling,Culture,0,TRUE,2024,FALSE,Liling,Not selected
+2024,Liuyang,Culture,0,TRUE,2024,FALSE,Liuyang,Not selected
+2024,Ningxiang,Culture,0,TRUE,2024,FALSE,Ningxiang,Not selected
+2024,Shuangfeng,Culture,1,TRUE,2024,TRUE,Shuangfeng,Selected
+2024,Xiangtan,Culture,1,TRUE,2024,TRUE,Xiangtan,Selected
+2024,Yuanjiang,Culture,0,TRUE,2024,FALSE,Yuanjiang,Not selected
+2024,Junshan,Capture,0,TRUE,2024,FALSE,Junshan,Not selected
+2024,Lianyuan,Capture,0,TRUE,2024,FALSE,Lianyuan,Not selected
+2024,Liling,Capture,0,TRUE,2024,FALSE,Liling,Not selected
+2024,Liuyang,Capture,1,TRUE,2024,TRUE,Liuyang,Selected
+2024,Ningxiang,Capture,0,TRUE,2024,FALSE,Ningxiang,Not selected
+2024,Shuangfeng,Capture,1,TRUE,2024,TRUE,Shuangfeng,Selected
+2024,Xiangtan,Capture,0,TRUE,2024,FALSE,Xiangtan,Not selected
+2024,Yuanjiang,Capture,1,TRUE,2024,TRUE,Yuanjiang,Selected
+2024,Junshan,Compound,0,TRUE,2024,FALSE,Junshan,Not selected
+2024,Lianyuan,Compound,1,TRUE,2024,TRUE,Lianyuan,Selected
+2024,Liling,Compound,0,TRUE,2024,FALSE,Liling,Not selected
+2024,Liuyang,Compound,0,TRUE,2024,FALSE,Liuyang,Not selected
+2024,Ningxiang,Compound,0,TRUE,2024,FALSE,Ningxiang,Not selected
+2024,Shuangfeng,Compound,1,TRUE,2024,TRUE,Shuangfeng,Selected
+2024,Xiangtan,Compound,1,TRUE,2024,TRUE,Xiangtan,Selected
+2024,Yuanjiang,Compound,0,TRUE,2024,FALSE,Yuanjiang,Not selected
+2025,Junshan,Culture,0,TRUE,2025,FALSE,Junshan,Not selected
+2025,Lianyuan,Culture,1,TRUE,2025,TRUE,Lianyuan,Selected
+2025,Liling,Culture,0,TRUE,2025,FALSE,Liling,Not selected
+2025,Liuyang,Culture,0,TRUE,2025,FALSE,Liuyang,Not selected
+2025,Ningxiang,Culture,0,TRUE,2025,FALSE,Ningxiang,Not selected
+2025,Shuangfeng,Culture,1,TRUE,2025,TRUE,Shuangfeng,Selected
+2025,Xiangtan,Culture,1,TRUE,2025,TRUE,Xiangtan,Selected
+2025,Yuanjiang,Culture,0,TRUE,2025,FALSE,Yuanjiang,Not selected
+2025,Junshan,Capture,0,TRUE,2025,FALSE,Junshan,Not selected
+2025,Lianyuan,Capture,0,TRUE,2025,FALSE,Lianyuan,Not selected
+2025,Liling,Capture,0,TRUE,2025,FALSE,Liling,Not selected
+2025,Liuyang,Capture,1,TRUE,2025,TRUE,Liuyang,Selected
+2025,Ningxiang,Capture,0,TRUE,2025,FALSE,Ningxiang,Not selected
+2025,Shuangfeng,Capture,1,TRUE,2025,TRUE,Shuangfeng,Selected
+2025,Xiangtan,Capture,0,TRUE,2025,FALSE,Xiangtan,Not selected
+2025,Yuanjiang,Capture,1,TRUE,2025,TRUE,Yuanjiang,Selected
+2025,Junshan,Compound,0,TRUE,2025,FALSE,Junshan,Not selected
+2025,Lianyuan,Compound,1,TRUE,2025,TRUE,Lianyuan,Selected
+2025,Liling,Compound,0,TRUE,2025,FALSE,Liling,Not selected
+2025,Liuyang,Compound,0,TRUE,2025,FALSE,Liuyang,Not selected
+2025,Ningxiang,Compound,0,TRUE,2025,FALSE,Ningxiang,Not selected
+2025,Shuangfeng,Compound,1,TRUE,2025,TRUE,Shuangfeng,Selected
+2025,Xiangtan,Compound,1,TRUE,2025,TRUE,Xiangtan,Selected
+2025,Yuanjiang,Compound,0,TRUE,2025,FALSE,Yuanjiang,Not selected

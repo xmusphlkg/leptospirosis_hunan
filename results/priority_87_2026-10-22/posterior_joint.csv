@@ -1,0 +1,17 @@
+model,site,joint_top3
+binomial,Junshan,0.0
+binomial,Lianyuan,0.75
+binomial,Liling,0.0
+binomial,Liuyang,0.0
+binomial,Ningxiang,0.0
+binomial,Shuangfeng,1.0
+binomial,Xiangtan,1.0
+binomial,Yuanjiang,0.0
+betabinomial,Junshan,0.0
+betabinomial,Lianyuan,0.5958333333333333
+betabinomial,Liling,0.0
+betabinomial,Liuyang,0.05416666666666667
+betabinomial,Ningxiang,0.00016666666666666666
+betabinomial,Shuangfeng,0.87
+betabinomial,Xiangtan,0.6906666666666667
+betabinomial,Yuanjiang,0.001

@@ -1,0 +1,92 @@
+{
+  "snapshot": "priority_87_2026-10-22",
+  "verified_inputs": [
+    {
+      "path": "analysis_panel.csv",
+      "sha256": "c77e503ea88b410941b68b11adba4c406ac9cee79c08f82205f990b25aa59f4b"
+    },
+    {
+      "path": "primary87_site_summary.csv",
+      "sha256": "6794e02691a6fb6bb2f1b863bbfd549b235848ecc92a31db11753862416ba6c0"
+    },
+    {
+      "path": "primary87_summary.json",
+      "sha256": "da91479b7b4ef56d2913c8c432215960b8fdcc50fcad4973167f63fc29ecb651"
+    },
+    {
+      "path": "primary87_loyo_by_year.csv",
+      "sha256": "b80bc40946cc8cea6c5d1771296fdc092b7bf1659b623fb525813f9be5f67dff"
+    },
+    {
+      "path": "primary87_loyo_selection.csv",
+      "sha256": "283a55fd396d9118bede845f75a175e0ac9509db9eca188b082f505deff7f9f8"
+    },
+    {
+      "path": "primary87_loyo_pooled.csv",
+      "sha256": "d0419faf7b2cf84e726311d586f2a5db00b75db258191ef74b360ad4b8580183"
+    },
+    {
+      "path": "primary87_permutations.csv",
+      "sha256": "ac7f5caedc603fa2fc0cdad91e71fc410dfb878636d0b5ce9e553f6f9e031510"
+    },
+    {
+      "path": "posterior_site_rates.csv",
+      "sha256": "e9f075b3950ef35b450f6da8cbf3ed99681313784dff3bf401eaaf9bde35704c"
+    },
+    {
+      "path": "posterior_ranks.csv",
+      "sha256": "799822f2f9a778083d7e509f11fb96375768a2652244d1a48d2ea26e987ad27c"
+    },
+    {
+      "path": "posterior_joint.csv",
+      "sha256": "67010f8ae4911ad59bd53e6c44521a0b77628ed2fc545c05bfb619be55497fb8"
+    },
+    {
+      "path": "posterior_rho_draws.csv",
+      "sha256": "36a6f9879a6eea6814dcaecbef41525cf9c7fc478d65f3c70598c76cc53f9f38"
+    },
+    {
+      "path": "posterior_correlations.csv",
+      "sha256": "27e5bebada43609a49b9e37c2316f63fe0a5dda8f3d3787cb3e485617a518276"
+    }
+  ],
+  "style": {
+    "base_theme": "theme_bw",
+    "palette": ["#BC3C29FF", "#0072B5FF", "#E18727FF", "#20854EFF", "#7876B1FF", "#6F99ADFF", "#FFDC91FF", "#EE4C97FF"],
+    "text_annotations": false
+  },
+  "permutation": {
+    "observed": 0.51929464360316824,
+    "median": 0.17300632331158264,
+    "interval": [-0.68021849433683745, 0.95008140865861179],
+    "p": 0.50476190476190474,
+    "permutations": 5040
+  },
+  "posterior": [
+    {
+      "model": "Binomial",
+      "rho_median": 0.80952380952380953,
+      "rho_mean": 0.80384126984126991,
+      "rho_low": 0.66666666666666663,
+      "rho_high": 0.95238095238095244,
+      "probability_positive": 1,
+      "same_top3": 0.75,
+      "median": 0.80952380952380953,
+      "low": 0.66666666666666663,
+      "high": 0.95238095238095244
+    },
+    {
+      "model": "Beta-binomial",
+      "rho_median": 0.66666666666666663,
+      "rho_mean": 0.63218253968253957,
+      "rho_low": 0.14285714285714285,
+      "rho_high": 0.9285714285714286,
+      "probability_positive": 0.99199999999999999,
+      "same_top3": 0.27783333333333332,
+      "median": 0.66666666666666663,
+      "low": 0.14285714285714285,
+      "high": 0.9285714285714286
+    }
+  ],
+  "notes": ["Current input files hashed in verified_inputs.", "Posterior summaries recomputed from current NUTS draws; rank probabilities sum to one.", "Posterior draws are paired by chain then draw, in the current analysis.", "All 5040 observation-pattern-preserving whole-trajectory permutations are enumerated; median-centred two-sided P.", "Wilson intervals are crude descriptive binomial intervals, not cluster-adjusted.", "No fitting or random posterior resampling is performed."]
+}

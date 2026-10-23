@@ -1,0 +1,603 @@
+{
+  "primary87": {
+    "n": 87,
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "totals": {
+      "positive": 291,
+      "tested": 8834,
+      "leptospira_culture_positive": 317,
+      "effective_cultures": 6824,
+      "rodents_caught": 7333,
+      "trap_setting_count": 270469
+    },
+    "correlations": {
+      "culture": {
+        "rho": 0.7142857142857143,
+        "p_two_sided": 0.05758928571428571,
+        "permutations": 40320
+      },
+      "capture": {
+        "rho": 0.42857142857142855,
+        "p_two_sided": 0.2992063492063492,
+        "permutations": 40320
+      }
+    },
+    "permutation": {
+      "n_permutations": 5040,
+      "exchangeable_groups": [
+        [
+          "Junshan",
+          "Lianyuan",
+          "Liling",
+          "Liuyang",
+          "Ningxiang",
+          "Shuangfeng",
+          "Xiangtan"
+        ],
+        [
+          "Yuanjiang"
+        ]
+      ],
+      "enrichment": {
+        "observed_difference": 0.5192946436031682,
+        "null_median": 0.17300632331158264,
+        "null_interval": [
+          -0.6802184943368375,
+          0.9500814086586118
+        ],
+        "p_two_sided": 0.5047619047619047
+      },
+      "coverage": {
+        "observed_difference": 0.2164948453608247,
+        "null_median": 0.06529209621993128,
+        "null_interval": [
+          -0.25773195876288657,
+          0.3745704467353952
+        ],
+        "p_two_sided": 0.4714285714285714
+      }
+    },
+    "loyo": [
+      {
+        "rule": "Capture",
+        "positive_selected": 139.0,
+        "positive_all": 291,
+        "tested_selected": 3306.0,
+        "tested_all": 8834,
+        "coverage": 0.47766323024054985,
+        "testing_share": 0.37423590672402085,
+        "enrichment": 1.2763693212174885
+      },
+      {
+        "rule": "Compound",
+        "positive_selected": 202.0,
+        "positive_all": 291,
+        "tested_selected": 3415.0,
+        "tested_all": 8834,
+        "coverage": 0.6941580756013745,
+        "testing_share": 0.38657459814353634,
+        "enrichment": 1.7956639648206567
+      },
+      {
+        "rule": "Culture",
+        "positive_selected": 202.0,
+        "positive_all": 291,
+        "tested_selected": 3415.0,
+        "tested_all": 8834,
+        "coverage": 0.6941580756013745,
+        "testing_share": 0.38657459814353634,
+        "enrichment": 1.7956639648206567
+      }
+    ]
+  },
+  "balanced80": {
+    "n": 80,
+    "years": [
+      2015,
+      2016,
+      2017,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "totals": {
+      "positive": 253,
+      "tested": 8131,
+      "leptospira_culture_positive": 288,
+      "effective_cultures": 6324,
+      "rodents_caught": 6804,
+      "trap_setting_count": 246657
+    },
+    "correlations": {
+      "culture": {
+        "rho": 0.7619047619047619,
+        "p_two_sided": 0.03675595238095238,
+        "permutations": 40320
+      },
+      "capture": {
+        "rho": 0.5714285714285714,
+        "p_two_sided": 0.151140873015873,
+        "permutations": 40320
+      }
+    },
+    "permutation": {
+      "n_permutations": 40320,
+      "exchangeable_groups": [
+        [
+          "Junshan",
+          "Lianyuan",
+          "Liling",
+          "Liuyang",
+          "Ningxiang",
+          "Shuangfeng",
+          "Xiangtan",
+          "Yuanjiang"
+        ]
+      ],
+      "enrichment": {
+        "observed_difference": 0.5342606604600053,
+        "null_median": 0.0,
+        "null_interval": [
+          -0.968350025619247,
+          0.9683500256192492
+        ],
+        "p_two_sided": 0.3380952380952381
+      },
+      "coverage": {
+        "observed_difference": 0.2213438735177865,
+        "null_median": 0.0,
+        "null_interval": [
+          -0.3794466403162055,
+          0.3794466403162055
+        ],
+        "p_two_sided": 0.3142857142857143
+      }
+    },
+    "loyo": [
+      {
+        "rule": "Capture",
+        "positive_selected": 121.0,
+        "positive_all": 253,
+        "tested_selected": 3006.0,
+        "tested_all": 8131,
+        "coverage": 0.4782608695652174,
+        "testing_share": 0.3696962243266511,
+        "enrichment": 1.2936590586942058
+      },
+      {
+        "rule": "Compound",
+        "positive_selected": 177.0,
+        "positive_all": 253,
+        "tested_selected": 3112.0,
+        "tested_all": 8131,
+        "coverage": 0.6996047430830039,
+        "testing_share": 0.3827327511991145,
+        "enrichment": 1.8279197191542111
+      },
+      {
+        "rule": "Culture",
+        "positive_selected": 177.0,
+        "positive_all": 253,
+        "tested_selected": 3112.0,
+        "tested_all": 8131,
+        "coverage": 0.6996047430830039,
+        "testing_share": 0.3827327511991145,
+        "enrichment": 1.8279197191542111
+      }
+    ]
+  },
+  "early63": {
+    "n": 63,
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "totals": {
+      "positive": 280,
+      "tested": 6381,
+      "leptospira_culture_positive": 291,
+      "effective_cultures": 4987,
+      "rodents_caught": 5431,
+      "trap_setting_count": 194003
+    },
+    "correlations": {
+      "culture": {
+        "rho": 0.9027075674773931,
+        "p_two_sided": 0.005357142857142857,
+        "permutations": 40320
+      },
+      "capture": {
+        "rho": 0.5714285714285714,
+        "p_two_sided": 0.151140873015873,
+        "permutations": 40320
+      }
+    },
+    "permutation": {
+      "n_permutations": 5040,
+      "exchangeable_groups": [
+        [
+          "Junshan",
+          "Lianyuan",
+          "Liling",
+          "Liuyang",
+          "Ningxiang",
+          "Shuangfeng",
+          "Xiangtan"
+        ],
+        [
+          "Yuanjiang"
+        ]
+      ],
+      "enrichment": {
+        "observed_difference": 0.5447063510056029,
+        "null_median": 0.1678467249883982,
+        "null_interval": [
+          -0.7074234119636186,
+          0.9734498948690097
+        ],
+        "p_two_sided": 0.4880952380952381
+      },
+      "coverage": {
+        "observed_difference": 0.22500000000000003,
+        "null_median": 0.060714285714285714,
+        "null_interval": [
+          -0.26785714285714285,
+          0.3821428571428571
+        ],
+        "p_two_sided": 0.4238095238095238
+      }
+    },
+    "loyo": [
+      {
+        "rule": "Capture",
+        "positive_selected": 134.0,
+        "positive_all": 280,
+        "tested_selected": 2406.0,
+        "tested_all": 6381,
+        "coverage": 0.4785714285714286,
+        "testing_share": 0.3770568876351669,
+        "enrichment": 1.269228713929462
+      },
+      {
+        "rule": "Compound",
+        "positive_selected": 197.0,
+        "positive_all": 280,
+        "tested_selected": 2475.0,
+        "tested_all": 6381,
+        "coverage": 0.7035714285714286,
+        "testing_share": 0.38787023977433005,
+        "enrichment": 1.813935064935065
+      },
+      {
+        "rule": "Culture",
+        "positive_selected": 197.0,
+        "positive_all": 280,
+        "tested_selected": 2475.0,
+        "tested_all": 6381,
+        "coverage": 0.7035714285714286,
+        "testing_share": 0.38787023977433005,
+        "enrichment": 1.813935064935065
+      }
+    ]
+  },
+  "recent24": {
+    "n": 24,
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "totals": {
+      "positive": 11,
+      "tested": 2453,
+      "leptospira_culture_positive": 26,
+      "effective_cultures": 1837,
+      "rodents_caught": 1902,
+      "trap_setting_count": 76466
+    },
+    "correlations": {
+      "culture": {
+        "rho": 0.34686724257884766,
+        "p_two_sided": 0.3869047619047619,
+        "permutations": 40320
+      },
+      "capture": {
+        "rho": -0.038310708317909774,
+        "p_two_sided": 0.9404761904761905,
+        "permutations": 40320
+      }
+    },
+    "permutation": {
+      "n_permutations": 40320,
+      "exchangeable_groups": [
+        [
+          "Junshan",
+          "Lianyuan",
+          "Liling",
+          "Liuyang",
+          "Ningxiang",
+          "Shuangfeng",
+          "Xiangtan",
+          "Yuanjiang"
+        ]
+      ],
+      "enrichment": {
+        "observed_difference": 0.948936170212766,
+        "null_median": -0.0075715134538664125,
+        "null_interval": [
+          -1.4335533052679486,
+          1.4042845483769055
+        ],
+        "p_two_sided": 0.18675595238095238
+      },
+      "coverage": {
+        "observed_difference": 0.36363636363636365,
+        "null_median": 0.0,
+        "null_interval": [
+          -0.5454545454545454,
+          0.5454545454545454
+        ],
+        "p_two_sided": 0.2119047619047619
+      }
+    },
+    "loyo": [
+      {
+        "rule": "Capture",
+        "positive_selected": 0.0,
+        "positive_all": 11,
+        "tested_selected": 925.0,
+        "tested_all": 2453,
+        "coverage": 0.0,
+        "testing_share": 0.3770892784345699,
+        "enrichment": 0.0
+      },
+      {
+        "rule": "Compound",
+        "positive_selected": 6.0,
+        "positive_all": 11,
+        "tested_selected": 925.0,
+        "tested_all": 2453,
+        "coverage": 0.5454545454545454,
+        "testing_share": 0.3770892784345699,
+        "enrichment": 1.4464864864864864
+      },
+      {
+        "rule": "Culture",
+        "positive_selected": 4.0,
+        "positive_all": 11,
+        "tested_selected": 940.0,
+        "tested_all": 2453,
+        "coverage": 0.36363636363636365,
+        "testing_share": 0.3832042397064819,
+        "enrichment": 0.948936170212766
+      }
+    ]
+  },
+  "exclude2015": {
+    "n": 79,
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "totals": {
+      "positive": 195,
+      "tested": 8030,
+      "leptospira_culture_positive": 241,
+      "effective_cultures": 6059,
+      "rodents_caught": 6412,
+      "trap_setting_count": 246106
+    },
+    "correlations": {
+      "culture": {
+        "rho": 0.7065994945288228,
+        "p_two_sided": 0.05952380952380952,
+        "permutations": 40320
+      },
+      "capture": {
+        "rho": 0.5714285714285714,
+        "p_two_sided": 0.151140873015873,
+        "permutations": 40320
+      }
+    },
+    "permutation": {
+      "n_permutations": 5040,
+      "exchangeable_groups": [
+        [
+          "Junshan",
+          "Lianyuan",
+          "Liling",
+          "Liuyang",
+          "Ningxiang",
+          "Shuangfeng",
+          "Xiangtan"
+        ],
+        [
+          "Yuanjiang"
+        ]
+      ],
+      "enrichment": {
+        "observed_difference": 0.5682990557912895,
+        "null_median": 0.031972924043627865,
+        "null_interval": [
+          -0.6618820854370392,
+          0.9364630093539016
+        ],
+        "p_two_sided": 0.24642857142857144
+      },
+      "coverage": {
+        "observed_difference": 0.23589743589743595,
+        "null_median": 0.010256410256410256,
+        "null_interval": [
+          -0.26153846153846155,
+          0.36923076923076925
+        ],
+        "p_two_sided": 0.22023809523809523
+      }
+    },
+    "loyo": [
+      {
+        "rule": "Capture",
+        "positive_selected": 80.0,
+        "positive_all": 195,
+        "tested_selected": 3002.0,
+        "tested_all": 8030,
+        "coverage": 0.41025641025641024,
+        "testing_share": 0.37384806973848067,
+        "enrichment": 1.0973880660756077
+      },
+      {
+        "rule": "Compound",
+        "positive_selected": 126.0,
+        "positive_all": 195,
+        "tested_selected": 3115.0,
+        "tested_all": 8030,
+        "coverage": 0.6461538461538462,
+        "testing_share": 0.387920298879203,
+        "enrichment": 1.6656871218668972
+      },
+      {
+        "rule": "Culture",
+        "positive_selected": 126.0,
+        "positive_all": 195,
+        "tested_selected": 3115.0,
+        "tested_all": 8030,
+        "coverage": 0.6461538461538462,
+        "testing_share": 0.387920298879203,
+        "enrichment": 1.6656871218668972
+      }
+    ]
+  },
+  "arithmetic_effective": {
+    "n": 87,
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "totals": {
+      "positive": 291,
+      "tested": 8834,
+      "leptospira_culture_positive": 317,
+      "effective_cultures": 6845,
+      "rodents_caught": 7333,
+      "trap_setting_count": 270469
+    },
+    "correlations": {
+      "culture": {
+        "rho": 0.7142857142857143,
+        "p_two_sided": 0.05758928571428571,
+        "permutations": 40320
+      },
+      "capture": {
+        "rho": 0.42857142857142855,
+        "p_two_sided": 0.2992063492063492,
+        "permutations": 40320
+      }
+    },
+    "permutation": {
+      "n_permutations": 5040,
+      "exchangeable_groups": [
+        [
+          "Junshan",
+          "Lianyuan",
+          "Liling",
+          "Liuyang",
+          "Ningxiang",
+          "Shuangfeng",
+          "Xiangtan"
+        ],
+        [
+          "Yuanjiang"
+        ]
+      ],
+      "enrichment": {
+        "observed_difference": 0.5192946436031682,
+        "null_median": 0.17300632331158264,
+        "null_interval": [
+          -0.6802184943368375,
+          0.9500814086586118
+        ],
+        "p_two_sided": 0.5047619047619047
+      },
+      "coverage": {
+        "observed_difference": 0.2164948453608247,
+        "null_median": 0.06529209621993128,
+        "null_interval": [
+          -0.25773195876288657,
+          0.3745704467353952
+        ],
+        "p_two_sided": 0.4714285714285714
+      }
+    },
+    "loyo": [
+      {
+        "rule": "Capture",
+        "positive_selected": 139.0,
+        "positive_all": 291,
+        "tested_selected": 3306.0,
+        "tested_all": 8834,
+        "coverage": 0.47766323024054985,
+        "testing_share": 0.37423590672402085,
+        "enrichment": 1.2763693212174885
+      },
+      {
+        "rule": "Compound",
+        "positive_selected": 202.0,
+        "positive_all": 291,
+        "tested_selected": 3415.0,
+        "tested_all": 8834,
+        "coverage": 0.6941580756013745,
+        "testing_share": 0.38657459814353634,
+        "enrichment": 1.7956639648206567
+      },
+      {
+        "rule": "Culture",
+        "positive_selected": 202.0,
+        "positive_all": 291,
+        "tested_selected": 3415.0,
+        "tested_all": 8834,
+        "coverage": 0.6941580756013745,
+        "testing_share": 0.38657459814353634,
+        "enrichment": 1.7956639648206567
+      }
+    ]
+  }
+}

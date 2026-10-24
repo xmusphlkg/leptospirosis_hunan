@@ -8,7 +8,7 @@ Public, reproducible materials for the 2015–2025 analysis of rodent culture an
 - `script/hunan/reanalyze_priority_87.py`: descriptive, model, and posterior-summary pipeline.
 - `script/hunan/plot_priority_figures.R` and `priority_figure_data.R`: rebuild the figures from saved results.
 - `results/priority_87_2026-10-22/`: current analysis summaries, diagnostics, and machine-readable results.
-- `manuscript/tables/` and `manuscript/figures/`: supplementary tables, figure source data, and final figures.
+- `manuscript/tables/` and `manuscript/figures/`: supplementary tables, figure source data, and final figures. The current supplement also uses `table_s10_predictive_summary.csv`, `table_s15_strategy_utility.csv`, and Tables S19–S21.
 - `manuscript/supplementary_priority_methods.md`: methods, estimands, diagnostics, and result interpretation.
 
 The shared data are aggregated by site and year. The repository does not contain source workbooks, person-level records, correction evidence, archived analyses, or review drafts.

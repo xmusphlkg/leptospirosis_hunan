@@ -1,0 +1,4 @@
+threshold_pp,draws_exceeding,draws,posterior_probability
+0,5311,6000,0.8851666666666667
+10,3138,6000,0.523
+15,1797,6000,0.2995

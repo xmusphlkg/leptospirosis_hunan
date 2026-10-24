@@ -1,11 +1,11 @@
-| Site | Human positive / tested (%) | Culture positive / effective (%) | Rodents caught / trap-nights (%) |
-|---|---:|---:|---:|
-| Shuangfeng | 82/1,100 (7.45) | 77/1,123 (6.86) | 1,162/24,203 (4.80) |
-| Xiangtan | 79/1,210 (6.53) | 167/1,163 (14.36) | 1,194/40,905 (2.92) |
-| Lianyuan | 41/1,105 (3.71) | 55/635 (8.66) | 651/21,113 (3.08) |
-| Liuyang | 35/1,100 (3.18) | 13/639 (2.03) | 873/16,911 (5.16) |
-| Liling | 20/1,100 (1.82) | 0/636 (0.00) | 650/48,530 (1.34) |
-| Yuanjiang | 18/1,006 (1.79) | 2/959 (0.21) | 1,057/15,530 (6.81) |
-| Ningxiang | 10/1,113 (0.90) | 1/1,139 (0.09) | 1,140/44,283 (2.57) |
-| Junshan | 6/1,100 (0.55) | 2/530 (0.38) | 606/58,994 (1.03) |
-| Total | 291/8,834 (3.29) | 317/6,824 (4.65) | 7,333/270,469 (2.71) |
+| Site | Landscape type | Human positive / tested (%) | Culture positive / effective (%) | Rodents caught / trap-nights (%) |
+|---|---|---:|---:|---:|
+| Shuangfeng | Central Hunan hilly rice basin | 82/1,100 (7.45) | 77/1,123 (6.86) | 1,162/24,203 (4.80) |
+| Xiangtan | Central Hunan hilly rice basin | 79/1,210 (6.53) | 167/1,163 (14.36) | 1,194/40,905 (2.92) |
+| Lianyuan | Central Hunan hilly rice basin | 41/1,105 (3.71) | 55/635 (8.66) | 651/21,113 (3.08) |
+| Liuyang | Eastern Hunan hilly basin | 35/1,100 (3.18) | 13/639 (2.03) | 873/16,911 (5.16) |
+| Liling | Eastern Hunan hilly basin | 20/1,100 (1.82) | 0/636 (0.00) | 650/48,530 (1.34) |
+| Yuanjiang | Dongting Lake floodplain | 18/1,006 (1.79) | 2/959 (0.21) | 1,057/15,530 (6.81) |
+| Ningxiang | Central Hunan hilly rice basin | 10/1,113 (0.90) | 1/1,139 (0.09) | 1,140/44,283 (2.57) |
+| Junshan | Dongting Lake floodplain | 6/1,100 (0.55) | 2/530 (0.38) | 606/58,994 (1.03) |
+| Total | — | 291/8,834 (3.29) | 317/6,824 (4.65) | 7,333/270,469 (2.71) |

@@ -1,0 +1,6 @@
+year,published_human_positive,published_human_tested,published_human_rate_percent,published_culture_positive,published_effective_cultures,published_rodents_caught,published_trap_setting_count,current_all_positive,current_all_tested,current_all_leptospira_culture_positive,current_all_effective_cultures,current_all_rodents_caught,current_all_trap_setting_count,current_joint_positive,current_joint_tested,current_joint_leptospira_culture_positive,current_joint_effective_cultures,current_joint_rodents_caught,current_joint_trap_setting_count,published_minus_current_human_positive
+2018,58,803,4.86,29,500,529,23812,39,803,29,500,529,23812,38,703,29,500,529,23812,19
+2019,15,834,1.8,14,599,671,25798,15,834,14,599,671,25798,15,834,14,599,671,25798,0
+2020,25,805,2.98,26,598,635,20568,24,805,26,598,635,20568,24,805,26,598,635,20568,1
+2021,3,810,0.37,28,596,636,30094,3,810,28,596,636,30094,3,810,28,596,636,30094,0
+2022,1,820,0.12,10,607,615,24401,1,820,10,607,615,24401,1,820,10,607,615,24401,0

@@ -1,0 +1,22 @@
+{
+  "script": "script/hunan/plot_sentinel_network.py",
+  "script_sha256": "b40350ab0a99042bd53f6c6f2f30118800b17e0e415c106909b32889ec2adbfb",
+  "inputs_sha256": {
+    "output/hunan/current/network_redesign_2026-11-13/site_summary.csv": "eb87fb44291242143386530e0523689567a3dc622d396478cfec306651a3583f",
+    "output/hunan/current/network_redesign_2026-11-13/pooled_metrics.csv": "a4478ac9aa6e454b716a84f48b265bd1c9940a82fbef0e82a805ba23557adf7d",
+    "output/hunan/current/network_redesign_2026-11-13/fold_metrics.csv": "5d9701630f78a792e529d20e5191c3c506b7ef240a1b9daa6c50bc16693610b8",
+    "output/hunan/current/network_redesign_2026-11-13/selection_weights.csv": "69a5eada05e936085bd7efb2e8020cdc4f2c2e82568eb87c2e2b0cbaaccbc522"
+  },
+  "outputs_sha256": {
+    "figure1_indicator_priorities.png": "f5e5dea7f6d1454a554614eb27db5c77616753b50ab629ca70555a1959f2d183",
+    "figure1_indicator_priorities.pdf": "2bdbe653047fb40633009c18a5849706b7849fe5338ec3135e2f9cdf69f13f2d",
+    "figure2_network_coverage.png": "48db3134156a8cd8955ea76b24890b734930b57c019cdefe249afaf571add3ca",
+    "figure2_network_coverage.pdf": "efde440e5ae11b73c20df1188011b59961d182640db9545e39d35daac9889307",
+    "figure3_forward_evaluation.png": "20b1ce19dc9d869989f5ab97a026a3548cc75057da1ca5b50c605b29ae78252f",
+    "figure3_forward_evaluation.pdf": "77a5876c62ba0f7cf1f35b56d3bf8494185c392e21f85e4ed912005382ec0c96",
+    "figure_s3_network_sensitivity.png": "4d0d1d4f2891b14bb98493a2aaa6f31298afebf4d4766a5ff3d0636c0db039fd",
+    "figure_s3_network_sensitivity.pdf": "d9ebb9940bcb50a0d6fabee2791902f9ee43ffba0e12d5def97ae2f247935a4b"
+  },
+  "png_dpi": 300,
+  "matplotlib_version": "3.11.2"
+}

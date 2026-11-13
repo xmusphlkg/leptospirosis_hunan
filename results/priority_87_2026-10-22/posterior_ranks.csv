@@ -1,4 +1,4 @@
-model,stream,site,rank,probability
+﻿model,stream,site,rank,probability
 betabinomial,culture,Junshan,1,0.0
 betabinomial,culture,Junshan,2,0.0005
 betabinomial,culture,Junshan,3,0.013

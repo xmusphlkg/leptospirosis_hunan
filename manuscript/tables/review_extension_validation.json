@@ -1,0 +1,19 @@
+{
+  "panel_and_primary_folds_reproduced": true,
+  "posterior_contrast_reconstructed_from_saved_fit": true,
+  "new_model_fits": 0,
+  "periods_and_thresholds": "exploratory_review_additions",
+  "utility_mean": 0.10426232789829881,
+  "utility_95_cri": [
+    -0.06727105874305651,
+    0.27115101893597765
+  ],
+  "inputs_sha256": {
+    "manuscript/tables/table_s2_site_year_counts.csv": "9ba413d29e97131ebb23c57e3ff2990d8a3d0f259b11ad5051cc90c8e1dbe689",
+    "manuscript/tables/table_s4_historical_evaluation.csv": "69576c07989daf822e49130216fad547f8dcee1a14865f4740502abf0e862f5f",
+    "manuscript/tables/table_s14_paired_posterior_utility.csv": "e3d51028f230ef2855015f24a20a2be19faeba5d1cd97facb1d46161f4bccdbe",
+    "output/hunan/current/priority_87_2026-10-22/human_betabinomial.nc": "5d78fdb6e3c744f736eff5054099b0c60cb723154c023094f12dae4130161200",
+    "output/hunan/current/priority_87_2026-10-22/human_betabinomial_fit.json": "8e2a12cf836fbf364ff8f3f94232a96a704f41230376f548aee96c522d34a132",
+    "data/processed/harmonized_2026-10-22/panel_complete_site_years.csv": "470cc29f9fea43f3054b73aff7f30939bd77f4802644aacc64fb372004ef5a21"
+  }
+}

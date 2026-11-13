@@ -1,0 +1,535 @@
+{
+  "engine": "ggplot2",
+  "composition": "patchwork",
+  "style": "Hunan eight-colour theme_bw",
+  "script": "script/hunan/plot_sentinel_network.R",
+  "script_sha256": "961180d61fc16613a8b74495b2f22c961fda840ba1291388500d613794c94765",
+  "scripts_sha256": {
+    "script/hunan/plot_sentinel_network.R": "961180d61fc16613a8b74495b2f22c961fda840ba1291388500d613794c94765",
+    "script/hunan/network_plot_common.R": "ed3e4b6093977288c5eec01575739da669bf2d136d397ee7b883ab298649168e",
+    "script/hunan/network_figures_13.R": "03a88d3a9bef588b52f64be5b55bd314d0e34ff44924a307944448d671127e13",
+    "script/hunan/network_figures_2_s3.R": "5907373eab014a6dec81723fb7e88655b8f122b9a2ae459b4ad66649d193a26c",
+    "script/hunan/network_figures_support.R": "d73b772dfa2ed838067e2d3b9824c856ce245d01c512a5f2bf836ab919ff2748"
+  },
+  "inputs_sha256": {
+    "output/hunan/current/network_redesign_2026-11-13/site_summary.csv": "eb87fb44291242143386530e0523689567a3dc622d396478cfec306651a3583f",
+    "output/hunan/current/network_redesign_2026-11-13/selection_weights.csv": "69a5eada05e936085bd7efb2e8020cdc4f2c2e82568eb87c2e2b0cbaaccbc522",
+    "output/hunan/current/network_redesign_2026-11-13/fold_metrics.csv": "5d9701630f78a792e529d20e5191c3c506b7ef240a1b9daa6c50bc16693610b8",
+    "output/hunan/current/network_redesign_2026-11-13/pooled_metrics.csv": "a4478ac9aa6e454b716a84f48b265bd1c9940a82fbef0e82a805ba23557adf7d",
+    "output/hunan/current/network_redesign_2026-11-13/site_year_contributions.csv": "d77bc50a65aa03c92eada51a37cf8bfd7ebbdf700e09908944c42b5db96033ac",
+    "output/hunan/current/network_redesign_2026-11-13/period_metrics.csv": "220950f12095f3cd5efa36b560f39f306b1fb325fb75274cfd6826ed5ef17cc7",
+    "output/hunan/current/priority_87_2026-10-22/analysis_panel.csv": "104950665e427f12b2506dbdc535c55a28f18b08e2f92fe8f09463836f1b523b",
+    "output/hunan/current/priority_87_2026-10-22/posterior_predictive_cells.csv": "2ff32c911faeb2b7e7f208ca2984026a70e65ef0319d9edd0e498704318d6ad5",
+    "output/hunan/current/priority_87_2026-10-22/posterior_predictive_checks.csv": "68e76fbcf8119d86d909c47d95dd4210c35eb624db233f17b753da41b1ad660c",
+    "output/hunan/current/priority_87_2026-10-22/human_binomial_predictive_totals.csv": "cc3fdcb809407d934815693d65ec4fadf25b89e1880704aea9f43db78e26eeae",
+    "output/hunan/current/priority_87_2026-10-22/human_betabinomial_predictive_totals.csv": "dc50216053dfbe7f12ca96074b9ea6c87106a21c12d39d85c2d0e9eab593d0f2",
+    "output/hunan/current/priority_87_2026-10-22/culture_binomial_predictive_totals.csv": "906e3bdce3b91f5ae485c84f2dc8bffed7cf3ce40d165fece845de9eb87aace6",
+    "output/hunan/current/priority_87_2026-10-22/culture_betabinomial_predictive_totals.csv": "fcfb2df5a5030b649d6d9c4e6a3a0fab09995b750a3394916238fbee2cb1adc8",
+    "output/hunan/current/priority_87_2026-10-22/primary87_loyo_pooled.csv": "d0419faf7b2cf84e726311d586f2a5db00b75db258191ef74b360ad4b8580183",
+    "output/hunan/current/priority_87_2026-10-22/balanced80_loyo_pooled.csv": "ff85f57cca5cb3ef0560583d0d2f75b8d358cb251692f516a58bf2290532e59a",
+    "output/hunan/current/priority_87_2026-10-22/early63_loyo_pooled.csv": "1e4fb81f552f24284e1e5a51e4bace3fe49c22339aeabaedbb558272d275a0d3",
+    "output/hunan/current/priority_87_2026-10-22/exclude2015_loyo_pooled.csv": "6c90b85853d9279cec0e6f2fa736e5a8ca41d39a5b87e0c5abd563fcdfcf1d2c",
+    "output/hunan/current/priority_87_2026-10-22/recent24_loyo_pooled.csv": "e6ce14ed3980b71b44721e1faeab39844799c7af07f1c0e6eff3a58c4c6f0ff5",
+    "output/hunan/current/priority_87_2026-10-22/arithmetic_effective_loyo_pooled.csv": "d0419faf7b2cf84e726311d586f2a5db00b75db258191ef74b360ad4b8580183",
+    "output/hunan/current/priority_87_2026-10-22/posterior_decision_sensitivity.csv": "2c86ed926b20cd9406b8fd00b4e4645c05d048362f519dbca3b0007713880585",
+    "output/hunan/current/network_redesign_2026-11-13/posterior_paired_draws.csv": "2ceabe0a72ceeebc45c5abfe88059d54eeccd4314e0c5ac4fd01a43d3847bdb9",
+    "output/hunan/current/priority_87_2026-10-22/posterior_decisions.csv": "1bbd17de1fd4d37c5e2c3b09971c9168d61fdf201e5daa2233b33f96203dd2f5",
+    "output/hunan/current/priority_87_2026-10-22/posterior_site_rates.csv": "e9f075b3950ef35b450f6da8cbf3ed99681313784dff3bf401eaaf9bde35704c",
+    "output/hunan/current/priority_87_2026-10-22/posterior_ranks.csv": "799822f2f9a778083d7e509f11fb96375768a2652244d1a48d2ea26e987ad27c",
+    "output/hunan/current/priority_87_2026-10-22/posterior_joint.csv": "67010f8ae4911ad59bd53e6c44521a0b77628ed2fc545c05bfb619be55497fb8",
+    "output/hunan/current/priority_87_2026-10-22/posterior_rho_draws.csv": "36a6f9879a6eea6814dcaecbef41525cf9c7fc478d65f3c70598c76cc53f9f38",
+    "output/hunan/current/priority_87_2026-10-22/posterior_correlations.csv": "27e5bebada43609a49b9e37c2316f63fe0a5dda8f3d3787cb3e485617a518276"
+  },
+  "input_copies": {
+    "output/hunan/current/network_redesign_2026-11-13/site_summary.csv": "inputs/output/hunan/current/network_redesign_2026-11-13/site_summary.csv",
+    "output/hunan/current/network_redesign_2026-11-13/selection_weights.csv": "inputs/output/hunan/current/network_redesign_2026-11-13/selection_weights.csv",
+    "output/hunan/current/network_redesign_2026-11-13/fold_metrics.csv": "inputs/output/hunan/current/network_redesign_2026-11-13/fold_metrics.csv",
+    "output/hunan/current/network_redesign_2026-11-13/pooled_metrics.csv": "inputs/output/hunan/current/network_redesign_2026-11-13/pooled_metrics.csv",
+    "output/hunan/current/network_redesign_2026-11-13/site_year_contributions.csv": "inputs/output/hunan/current/network_redesign_2026-11-13/site_year_contributions.csv",
+    "output/hunan/current/network_redesign_2026-11-13/period_metrics.csv": "inputs/output/hunan/current/network_redesign_2026-11-13/period_metrics.csv",
+    "output/hunan/current/priority_87_2026-10-22/analysis_panel.csv": "inputs/output/hunan/current/priority_87_2026-10-22/analysis_panel.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_predictive_cells.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_predictive_cells.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_predictive_checks.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_predictive_checks.csv",
+    "output/hunan/current/priority_87_2026-10-22/human_binomial_predictive_totals.csv": "inputs/output/hunan/current/priority_87_2026-10-22/human_binomial_predictive_totals.csv",
+    "output/hunan/current/priority_87_2026-10-22/human_betabinomial_predictive_totals.csv": "inputs/output/hunan/current/priority_87_2026-10-22/human_betabinomial_predictive_totals.csv",
+    "output/hunan/current/priority_87_2026-10-22/culture_binomial_predictive_totals.csv": "inputs/output/hunan/current/priority_87_2026-10-22/culture_binomial_predictive_totals.csv",
+    "output/hunan/current/priority_87_2026-10-22/culture_betabinomial_predictive_totals.csv": "inputs/output/hunan/current/priority_87_2026-10-22/culture_betabinomial_predictive_totals.csv",
+    "output/hunan/current/priority_87_2026-10-22/primary87_loyo_pooled.csv": "inputs/output/hunan/current/priority_87_2026-10-22/primary87_loyo_pooled.csv",
+    "output/hunan/current/priority_87_2026-10-22/balanced80_loyo_pooled.csv": "inputs/output/hunan/current/priority_87_2026-10-22/balanced80_loyo_pooled.csv",
+    "output/hunan/current/priority_87_2026-10-22/early63_loyo_pooled.csv": "inputs/output/hunan/current/priority_87_2026-10-22/early63_loyo_pooled.csv",
+    "output/hunan/current/priority_87_2026-10-22/exclude2015_loyo_pooled.csv": "inputs/output/hunan/current/priority_87_2026-10-22/exclude2015_loyo_pooled.csv",
+    "output/hunan/current/priority_87_2026-10-22/recent24_loyo_pooled.csv": "inputs/output/hunan/current/priority_87_2026-10-22/recent24_loyo_pooled.csv",
+    "output/hunan/current/priority_87_2026-10-22/arithmetic_effective_loyo_pooled.csv": "inputs/output/hunan/current/priority_87_2026-10-22/arithmetic_effective_loyo_pooled.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_decision_sensitivity.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_decision_sensitivity.csv",
+    "output/hunan/current/network_redesign_2026-11-13/posterior_paired_draws.csv": "inputs/output/hunan/current/network_redesign_2026-11-13/posterior_paired_draws.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_decisions.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_decisions.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_site_rates.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_site_rates.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_ranks.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_ranks.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_joint.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_joint.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_rho_draws.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_rho_draws.csv",
+    "output/hunan/current/priority_87_2026-10-22/posterior_correlations.csv": "inputs/output/hunan/current/priority_87_2026-10-22/posterior_correlations.csv"
+  },
+  "panel_data_sha256": {
+    "figure1_indicator_priorities_A.csv": "6a161a5a342f3d6a73032dd8c82262016342fef4e39589fb0faf4537f9f1cb57",
+    "figure1_indicator_priorities_B.csv": "6a161a5a342f3d6a73032dd8c82262016342fef4e39589fb0faf4537f9f1cb57",
+    "figure1_indicator_priorities_C.csv": "c46ff1a78e84c6ac55cebbf6f83a71543602acd36735c06f72b492235993d50d",
+    "figure1_indicator_priorities_D.csv": "029f82a71303f063838a6689082df8b0912cefee5cd596f03bb3cfee30c47ae7",
+    "figure1_indicator_priorities_E.csv": "00b9497a296bf8156fedc6d7db05689dbea7776d97d4e42d0af84d8c8e719db3",
+    "figure1_indicator_priorities_F.csv": "54845eb962f940ef45401fba42a12eed8cfad5965930547c3bbc026888182111",
+    "figure3_forward_evaluation_A.csv": "d4708f512158fc4231c85bb497e1a4e5b5d0fc7001110131841fba50a6d9a983",
+    "figure3_forward_evaluation_B.csv": "685b3359860f7f79b5fec25efef2c503a9c4b453bbc04a6314a3af3ec199040c",
+    "figure3_forward_evaluation_C.csv": "ab1e591533f5af17f02886500bbefdaae6e6bd0291a10d34d474d2443bffbdbf",
+    "figure3_forward_evaluation_D.csv": "d28c3bd637fe9e9a0850f998643a8f9ef6921e4609a3bb3266ec03e50ced8a15",
+    "figure3_forward_evaluation_E.csv": "18e5c7241356055286947de6cc0f7f769a6077b6dfa757df5f014fd080ddc9e8",
+    "figure3_forward_evaluation_F.csv": "de619d46faede6382a24e190d0b11f5519d9798a54c6e225e58d12cdcdb83eda",
+    "figure2_network_coverage_A.csv": "a15752ed5fd7df8a90a6a1ec7bafa605576b296890f5d51244f66f164b617123",
+    "figure2_network_coverage_B.csv": "a15752ed5fd7df8a90a6a1ec7bafa605576b296890f5d51244f66f164b617123",
+    "figure2_network_coverage_C.csv": "a15752ed5fd7df8a90a6a1ec7bafa605576b296890f5d51244f66f164b617123",
+    "figure2_network_coverage_D.csv": "989225780e032f6564faadd9e5b833df79ad1d07821d8208ac7f59281b9a5c8d",
+    "figure2_network_coverage_E.csv": "9775c1eef5e0b8e6d6d5114994ad8de69d2edbcb7ac5d573a854752c827eb2c9",
+    "figure2_network_coverage_F.csv": "b974ddbe6b3bcf19d7062fc341a9b3db575417f21d532e6138b08cb13d8e828b",
+    "figure_s3_network_sensitivity_A.csv": "ee6962274afdcfa22219abd53ca614a3e46b96d55c6889e57f97606e7cfbd78b",
+    "figure_s3_network_sensitivity_B.csv": "ee6962274afdcfa22219abd53ca614a3e46b96d55c6889e57f97606e7cfbd78b",
+    "figure_s3_network_sensitivity_C.csv": "e5a44300469d92c26c271ce71ac0fb714a92a3415d5076e62e981bb8131ffa94",
+    "figure_s3_network_sensitivity_D.csv": "e5a44300469d92c26c271ce71ac0fb714a92a3415d5076e62e981bb8131ffa94",
+    "figure_s3_network_sensitivity_E.csv": "442cc53b20ead89b21e381322b4bb7881c000df3f3265080aaf42d3dc2772fc8",
+    "figure_s3_network_sensitivity_F.csv": "442cc53b20ead89b21e381322b4bb7881c000df3f3265080aaf42d3dc2772fc8",
+    "figure_s1_predictive_checks_A.csv": "1d6854aed93e9c53990d6bea5058f32e6c3204105d8be60982c114e2e19569a1",
+    "figure_s1_predictive_checks_B.csv": "981483955aa6df1607d353b479fb7b46a2272cf2d3e365dcceb867f9d3d814f2",
+    "figure_s1_predictive_checks_C.csv": "bb55bea088d4565709952d5fb0cd556012b35391e134c7ed1d59d1a047c84fd3",
+    "figure_s1_predictive_checks_D.csv": "9018ec41dd5a3aafc301afa6d61b76e0a522c3497b58781eed94fff8d6b6e2ee",
+    "figure_s1_predictive_checks_E.csv": "003fb40c9ee34e88c1ee0a6ba186cc35c47055a762349de6faf9d11131f905ab",
+    "figure_s1_predictive_checks_F.csv": "7e4894fd53c66dff1ead448df1a0676e97daf9fb9bf5645fb0f09c62beef399a",
+    "figure_s2_period_prior_sensitivity_A.csv": "a0e4f1654a0f67a46c3c7628ee8dee4aa4ce454fd625d57fe1d102850e7125bb",
+    "figure_s2_period_prior_sensitivity_B.csv": "50a8b6684e0918717cbb9a5de3ab118bd7ccb1237abd92f2b9f215269a491ea3",
+    "figure_s2_period_prior_sensitivity_C.csv": "96ef2b15c13e383aa4ff392f62521e9fc44e29213732498a005e27ee5d5550d9",
+    "figure_s2_period_prior_sensitivity_D.csv": "bc14d83993ef37481db9131d95291e78e6e0932714eae812a5a49bfab929b205",
+    "figure_s2_period_prior_sensitivity_E.csv": "d9793536cdc0ae0b2fa2a56b1da7aa20e51a6c4b8a9128313b4f084ccfb17822",
+    "figure_s2_period_prior_sensitivity_F.csv": "effb6387fb43030702112f30f5097d9dd38e146dfab1bad84d05bb508536e5fb",
+    "figure4_model_uncertainty_A.csv": "f14c72d1b1df939a3221e5eb092ece9274e7bc34c0a61f7d9d140c7974ef1910",
+    "figure4_model_uncertainty_B.csv": "9e9ad5041eae372bf854fdf36a2d8d3e7474a6413c0f2b89b86d12bf87a33dff",
+    "figure4_model_uncertainty_C.csv": "4131d815205ebfe06f2943ba32a61d344b98a39bf3f30756e7ea5f1b65621668",
+    "figure4_model_uncertainty_D.csv": "527a5955e5a3037ae78d7d476c431c86341afc4dc925ff4fb0bf3101c929ec4c",
+    "figure4_model_uncertainty_E.csv": "adaea234b6ce2973b928d41c9f8e77ec2152ea8118ac30799539f82b17cb884c",
+    "figure4_model_uncertainty_F.csv": "2a1688617e0d027a6157a6f6ac4ab8014e82d511a65da8c0988350e180e23761"
+  },
+  "outputs_sha256": {
+    "figure1_indicator_priorities.png": "5335b65b79f94733926b61ee8b1210922aa6bfcce3a4c0ea8125a12551e68a04",
+    "figure1_indicator_priorities.pdf": "c43e1192779700ffca0e16fd71a494bc04d9b359f726f7a32d762ef374100887",
+    "figure3_forward_evaluation.png": "a7c8ea08e307417ac69448e63a047c9e127713844d7b8ce716d48cb1bf52e57b",
+    "figure3_forward_evaluation.pdf": "87ba6fc5b5baf332c86931f609bcb9407e203beead556f1ca3307e51fbfd3ea2",
+    "figure2_network_coverage.png": "0bef3ea2304f6fcbb4278a26e23a5ac9a1e619700fe0b9585a3bb468cae48e60",
+    "figure2_network_coverage.pdf": "68261d7ce68a0f499c1c60eabedf836d2912d59720833fc2d913248dd7f47f94",
+    "figure_s3_network_sensitivity.png": "dc418403af7da72effaa84cf56b5a8452ddc87262885559747104bb21ca28351",
+    "figure_s3_network_sensitivity.pdf": "193e996a716d44872a23f50a8ad14088324a95e0febe26d758e5c8ce6897a429",
+    "figure_s1_predictive_checks.png": "3405b9a755f4f8c6a35849de51f428776a8146048b064a52f0f05cc36f124b16",
+    "figure_s1_predictive_checks.pdf": "4b3737bdf6bba1f749768460a35be179c0faafa7e50f25e3dbf46c2c90b56200",
+    "figure_s2_period_prior_sensitivity.png": "d9e260754ce32f11840ac3aecc0d4a63a34916ee73ace74940fdecd671a9feaf",
+    "figure_s2_period_prior_sensitivity.pdf": "b4dc5f0a666d5d92c0202b10743c79d8ad81610a9b5df1921876d68158622156",
+    "figure4_model_uncertainty.png": "35aa0948b9f28f3d2c6c043054a43b065addabe52da011010d02711a7c1119f2",
+    "figure4_model_uncertainty.pdf": "0c64bcb814e7310de1434f98fe4bd2d4a5bebd505a84fd93a63532edc5ca186e"
+  },
+  "figures": {
+    "figure1_indicator_priorities": {
+      "panels": ["A", "B", "C", "D", "E", "F"],
+      "panel_count": 6,
+      "width_inches": 18,
+      "height_inches": 10.8,
+      "dpi": 320,
+      "engine": "ggplot2",
+      "composition": "patchwork"
+    },
+    "figure3_forward_evaluation": {
+      "panels": ["A", "B", "C", "D", "E", "F"],
+      "panel_count": 6,
+      "width_inches": 18,
+      "height_inches": 10.8,
+      "dpi": 320,
+      "engine": "ggplot2",
+      "composition": "patchwork"
+    },
+    "figure2_network_coverage": {
+      "panels": ["A", "B", "C", "D", "E", "F"],
+      "panel_count": 6,
+      "width_inches": 18,
+      "height_inches": 10.7,
+      "dpi": 320,
+      "engine": "ggplot2",
+      "composition": "patchwork"
+    },
+    "figure_s3_network_sensitivity": {
+      "panels": ["A", "B", "C", "D", "E", "F"],
+      "panel_count": 6,
+      "width_inches": 15.5,
+      "height_inches": 13.2,
+      "dpi": 320,
+      "engine": "ggplot2",
+      "composition": "patchwork"
+    },
+    "figure_s1_predictive_checks": {
+      "panels": ["A", "B", "C", "D", "E", "F"],
+      "panel_count": 6,
+      "width_inches": 17,
+      "height_inches": 10.5,
+      "dpi": 320,
+      "engine": "ggplot2",
+      "composition": "patchwork"
+    },
+    "figure_s2_period_prior_sensitivity": {
+      "panels": ["A", "B", "C", "D", "E", "F"],
+      "panel_count": 6,
+      "width_inches": 18,
+      "height_inches": 11,
+      "dpi": 320,
+      "engine": "ggplot2",
+      "composition": "patchwork"
+    },
+    "figure4_model_uncertainty": {
+      "panels": ["A", "B", "C", "D", "E", "F"],
+      "panel_count": 6,
+      "width_inches": 18,
+      "height_inches": 11,
+      "dpi": 320,
+      "engine": "ggplot2",
+      "composition": "patchwork"
+    }
+  },
+  "panels": [
+    {
+      "figure": "figure1_indicator_priorities",
+      "panel": "A",
+      "description": "Pooled indicator magnitudes and descriptive Wilson intervals",
+      "source": "figure1_indicator_priorities_A.csv",
+      "rows": 24,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure1_indicator_priorities",
+      "panel": "B",
+      "description": "Site rank trajectories across human, culture and capture indicators",
+      "source": "figure1_indicator_priorities_B.csv",
+      "rows": 24,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure1_indicator_priorities",
+      "panel": "C",
+      "description": "Membership of pooled three-site portfolios for each indicator",
+      "source": "figure1_indicator_priorities_C.csv",
+      "rows": 24,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure1_indicator_priorities",
+      "panel": "D",
+      "description": "Site contributions to the LOYO three-site positive-coverage difference",
+      "source": "figure1_indicator_priorities_D.csv",
+      "rows": 8,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure1_indicator_priorities",
+      "panel": "E",
+      "description": "Human seroreactivity among four classes of pooled animal-portfolio membership",
+      "source": "figure1_indicator_priorities_E.csv",
+      "rows": 4,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure1_indicator_priorities",
+      "panel": "F",
+      "description": "Distribution of positive results and human testing across animal-portfolio membership classes",
+      "source": "figure1_indicator_priorities_F.csv",
+      "rows": 12,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure3_forward_evaluation",
+      "panel": "A",
+      "description": "Training windows and subsequent evaluation years for both updating approaches",
+      "source": "figure3_forward_evaluation_A.csv",
+      "rows": 16,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure3_forward_evaluation",
+      "panel": "B",
+      "description": "Three-site portfolio membership under cumulative-history selection",
+      "source": "figure3_forward_evaluation_B.csv",
+      "rows": 192,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure3_forward_evaluation",
+      "panel": "C",
+      "description": "Annual positive-result coverage with point area reflecting evaluation-year positive count",
+      "source": "figure3_forward_evaluation_C.csv",
+      "rows": 24,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure3_forward_evaluation",
+      "panel": "D",
+      "description": "Cumulative coverage as subsequent-year outcomes accumulate",
+      "source": "figure3_forward_evaluation_D.csv",
+      "rows": 32,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure3_forward_evaluation",
+      "panel": "E",
+      "description": "Animal-rule coverage relative to the prior-human-serology benchmark at every network size",
+      "source": "figure3_forward_evaluation_E.csv",
+      "rows": 14,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure3_forward_evaluation",
+      "panel": "F",
+      "description": "Change in coverage when rankings use recent-three-year rather than cumulative history",
+      "source": "figure3_forward_evaluation_F.csv",
+      "rows": 21,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure2_network_coverage",
+      "panel": "A",
+      "description": "Held-out human-positive coverage as the LOYO network grows",
+      "source": "figure2_network_coverage_A.csv",
+      "rows": 21,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure2_network_coverage",
+      "panel": "B",
+      "description": "Human testing share represented by the same LOYO portfolios",
+      "source": "figure2_network_coverage_B.csv",
+      "rows": 21,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure2_network_coverage",
+      "panel": "C",
+      "description": "Coverage concentration relative to testing share across LOYO network sizes",
+      "source": "figure2_network_coverage_C.csv",
+      "rows": 21,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure2_network_coverage",
+      "panel": "D",
+      "description": "Coverage-testing-share trade-off for every evaluated network size",
+      "source": "figure2_network_coverage_D.csv",
+      "rows": 21,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure2_network_coverage",
+      "panel": "E",
+      "description": "Marginal coverage gained when one further site is included in the LOYO ranking",
+      "source": "figure2_network_coverage_E.csv",
+      "rows": 14,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure2_network_coverage",
+      "panel": "F",
+      "description": "Period-specific coverage contrasts retaining the original LOYO selection rules",
+      "source": "figure2_network_coverage_F.csv",
+      "rows": 21,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s3_network_sensitivity",
+      "panel": "A",
+      "description": "Full-period fixed rankings coverage across all network sizes",
+      "source": "figure_s3_network_sensitivity_A.csv",
+      "rows": 28,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s3_network_sensitivity",
+      "panel": "B",
+      "description": "Full-period fixed rankings enrichment across all network sizes",
+      "source": "figure_s3_network_sensitivity_B.csv",
+      "rows": 28,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s3_network_sensitivity",
+      "panel": "C",
+      "description": "Forward: cumulative history coverage across all network sizes",
+      "source": "figure_s3_network_sensitivity_C.csv",
+      "rows": 28,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s3_network_sensitivity",
+      "panel": "D",
+      "description": "Forward: cumulative history enrichment across all network sizes",
+      "source": "figure_s3_network_sensitivity_D.csv",
+      "rows": 28,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s3_network_sensitivity",
+      "panel": "E",
+      "description": "Forward: preceding three years coverage across all network sizes",
+      "source": "figure_s3_network_sensitivity_E.csv",
+      "rows": 28,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s3_network_sensitivity",
+      "panel": "F",
+      "description": "Forward: preceding three years enrichment across all network sizes",
+      "source": "figure_s3_network_sensitivity_F.csv",
+      "rows": 28,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s1_predictive_checks",
+      "panel": "A",
+      "description": "human total posterior-predictive distribution",
+      "source": "figure_s1_predictive_checks_A.csv",
+      "rows": 70,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s1_predictive_checks",
+      "panel": "B",
+      "description": "human zeros posterior-predictive distribution",
+      "source": "figure_s1_predictive_checks_B.csv",
+      "rows": 120,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s1_predictive_checks",
+      "panel": "C",
+      "description": "human observations with beta-binomial predictive intervals",
+      "source": "figure_s1_predictive_checks_C.csv",
+      "rows": 87,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s1_predictive_checks",
+      "panel": "D",
+      "description": "culture total posterior-predictive distribution",
+      "source": "figure_s1_predictive_checks_D.csv",
+      "rows": 72,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s1_predictive_checks",
+      "panel": "E",
+      "description": "culture zeros posterior-predictive distribution",
+      "source": "figure_s1_predictive_checks_E.csv",
+      "rows": 142,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s1_predictive_checks",
+      "panel": "F",
+      "description": "culture observations with beta-binomial predictive intervals",
+      "source": "figure_s1_predictive_checks_F.csv",
+      "rows": 87,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s2_period_prior_sensitivity",
+      "panel": "A",
+      "description": "Observed three-site LOYO coverage difference across record definitions",
+      "source": "figure_s2_period_prior_sensitivity_A.csv",
+      "rows": 6,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s2_period_prior_sensitivity",
+      "panel": "B",
+      "description": "Mean paired expected-coverage differences under prior specifications; 95% CrIs",
+      "source": "figure_s2_period_prior_sensitivity_B.csv",
+      "rows": 6,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s2_period_prior_sensitivity",
+      "panel": "C",
+      "description": "Paired posterior coverage differences by likelihood",
+      "source": "figure_s2_period_prior_sensitivity_C.csv",
+      "rows": 12000,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s2_period_prior_sensitivity",
+      "panel": "D",
+      "description": "Fixed-trio expected coverage across likelihood and evaluation-window fits",
+      "source": "figure_s2_period_prior_sensitivity_D.csv",
+      "rows": 8,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s2_period_prior_sensitivity",
+      "panel": "E",
+      "description": "Expected regret relative to the draw-specific best three-site portfolio",
+      "source": "figure_s2_period_prior_sensitivity_E.csv",
+      "rows": 12,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure_s2_period_prior_sensitivity",
+      "panel": "F",
+      "description": "Exploratory posterior probability of coverage gain above each threshold",
+      "source": "figure_s2_period_prior_sensitivity_F.csv",
+      "rows": 242,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure4_model_uncertainty",
+      "panel": "A",
+      "description": "human year-standardised rates with 95% credible intervals",
+      "source": "figure4_model_uncertainty_A.csv",
+      "rows": 16,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure4_model_uncertainty",
+      "panel": "B",
+      "description": "culture year-standardised rates with 95% credible intervals",
+      "source": "figure4_model_uncertainty_B.csv",
+      "rows": 16,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure4_model_uncertainty",
+      "panel": "C",
+      "description": "Complete posterior rank probabilities by stream and likelihood",
+      "source": "figure4_model_uncertainty_C.csv",
+      "rows": 256,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure4_model_uncertainty",
+      "panel": "D",
+      "description": "Marginal and joint top-three inclusion probabilities",
+      "source": "figure4_model_uncertainty_D.csv",
+      "rows": 48,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure4_model_uncertainty",
+      "panel": "E",
+      "description": "Discrete posterior probability mass of cross-stream Spearman concordance",
+      "source": "figure4_model_uncertainty_E.csv",
+      "rows": 77,
+      "engine": "ggplot2"
+    },
+    {
+      "figure": "figure4_model_uncertainty",
+      "panel": "F",
+      "description": "Posterior probability that the complete human and culture top-three sets agree",
+      "source": "figure4_model_uncertainty_F.csv",
+      "rows": 2,
+      "engine": "ggplot2"
+    }
+  ]
+}

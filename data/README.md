@@ -1,18 +1,8 @@
 # Released analysis data
 
-`analysis_panel.csv` contains the 87 observed site–year records used in the current Hunan sentinel-priority analysis (eight sites, 2015–2025). Rows are aggregate counts, not individual-level observations. The source surveillance workbooks and row-level audit trail are not included.
+This directory contains the aggregated data used by the current sentinel-site evaluation. It contains no source surveillance workbooks, individual-level records or binary posterior draws.
 
-| Field | Definition |
-|---|---|
-| `site` | English site label used in the analysis |
-| `year` | Surveillance year |
-| `positive` | Recorded human seropositive count |
-| `tested` | Human tests conducted |
-| `leptospira_culture_positive` | Recorded positive rodent cultures |
-| `effective_cultures` | Effective culture denominator used in the primary analysis |
-| `rodents_caught` | Recorded rodents caught |
-| `trap_setting_count` | Recorded trap-setting effort |
-| `cultures_total` | Total cultures in the site–year aggregate, retained for the arithmetic-denominator sensitivity analysis |
-| `contaminated` | Contaminated cultures in the site–year aggregate, retained for the arithmetic-denominator sensitivity analysis |
+- `analysis_panel.csv`: 87 jointly observed site–year records used for the pooled indicator, LOYO and model analyses.
+- `complete_human_ledger.csv`: 88 human site–year records, including animal-record availability used by the forward evaluation.
 
-The primary manuscript data table is `../manuscript/tables/table_s2_site_year_counts.csv`. The two additional culture fields support the denominator sensitivity analysis in the released code.
+The network-evaluation tables and machine-readable outputs are in `../manuscript/tables/` and `../results/network_redesign_2026-11-13/`. Field definitions and selection eligibility are documented in the current supplementary methods.

@@ -1,10 +1,9 @@
-
 <div style="text-align:center;">
   <h3 style="font-family: inherit; font-weight: normal; margin-bottom: 0;">Online supplemental material</h3>
-  <h1 style="font-family: inherit; font-weight: bold; font-size: 1.5em;">Rodent kidney culture versus capture yield for leptospirosis sentinel-site prioritisation in Hunan, China: historical coverage and decision uncertainty</h1>
+  <h1 style="font-family: inherit; font-weight: bold; font-size: 1.5em;">Selecting leptospirosis sentinel sites using rodent surveillance: a retrospective evaluation in Hunan, China, 2015–2025</h1>
   <br>
   <br>
-  <i>Ziyan Liu, Kangguo Li, Zheni Bu, Zhihui Dai, Ziqi Yang, Mingxia Xiao, Jia Rui, Tianmu Chen, and Kaiwei Luo</i>
+  <i>Ziyan Liu, Kangguo Li, Jingyu Cheng, Zheni Bu, Zhihui Dai, Ziqi Yang, Mingxia Xiao, Jia Rui, Tianmu Chen, and Kaiwei Luo</i>
 </div>
 <div style="page-break-after: always;"></div>
 
@@ -17,23 +16,27 @@
 
 ### Analytical framework
 
-The supplementary analyses distinguish four components of sentinel-site prioritisation: concordance between pooled surveillance indicators, historical coverage of human seropositive results, posterior uncertainty in site rankings, and the utility of fixed three-site portfolios (Table S22). The primary dataset comprises 87 jointly observed site–years from eight Hunan sentinel sites during 2015–2025.
+The analyses evaluate how rodent indicator choice changes sentinel-site priorities and coverage of human seroreactivity. The 87 jointly observed site–years support pooled comparisons, leave-one-year-out (LOYO) coverage and year-standardised modelling. The complete 88-row human ledger supplies outcomes for evaluations that select sites using previous years only. In the latter design, animal monitoring in the evaluation year is not required for selection or scoring.
 
-Historical coverage is evaluated by leave-one-year-out (LOYO) selection using animal observations from the remaining years. Because those observations can precede or follow the omitted year, this analysis estimates representation within the historical series. Posterior ranking analyses quantify uncertainty under separate human and culture models. Decision utility evaluates two fixed animal-selected portfolios against year-standardised human rates, conditional on observed testing volumes. These quantities have different targets and conditioning assumptions; neither historical coverage nor posterior utility estimates prospective clinical benefit.
+For the surveillance records and procedures, see Sections S1 and S8. Section S9 describes the network-size and forward evaluations, with the complete human ledger and selection results in Tables S27–S33. Sections S2 and S5 cover historical evaluation and temporal sensitivity. Sections S3–S4 and S6 provide model specifications, diagnostics and conditional decision analyses; Section S7 describes reproducibility. Supplementary tables retain stable identifiers to support cross-referencing with the source data. Coverage describes the share of recorded human seropositive results represented at selected sites. Modelled expected coverage conditions on fixed portfolios and year-standardised rates.
 
 ---
 
 ### S1. Data sources, analytical population, and surveillance indicators
 
-Human microscopic agglutination test (MAT) serology, rodent kidney culture, and trapping records were linked by sentinel site and calendar year. Inclusion required recorded human positive and tested counts, culture-positive and effective-culture counts, and capture counts with trapping effort. The resulting joint panel contained 87 site–years, with totals of 291 seropositive results among 8,834 human tests, 317 culture-positive isolates among 6,824 effective cultures, and 7,333 captures over 270,469 trap-nights (Table S2). Surveillance records were supplied as provincial aggregate ledgers; published Hunan epidemiology provides background rather than the complete source of these 2015–2025 counts [1]. The national surveillance framework and the limits of procedural verification are described in Section S8. Reporting was guided by COHERE and STROBE [2,3]. Environmental measurements required for a complete COHERE report were not available.
+Human microscopic agglutination test (MAT) serology, rodent kidney culture, and trapping records were linked by sentinel site and calendar year. Inclusion required recorded human positive and tested counts, culture-positive and effective-culture counts, and capture counts with trapping effort. The resulting joint panel contained 87 site–years, with totals of 291 seropositive results among 8,834 human tests, 317 culture-positive isolates among 6,824 effective cultures, and 7,333 captures over 270,469 trap-nights (Table S2). Surveillance records were supplied as provincial aggregate ledgers; published Hunan epidemiology provides background rather than the complete source of these 2015–2025 counts [1]. The national surveillance framework and the limits of procedural verification are described in Section S8. Reporting was guided by the applicable human–animal COHERE items and STROBE [2,3].
 
-The panel includes all eight sites in each year except 2018, when Yuanjiang had no rodent surveillance. Its human record (1/100) contributes to the provincial annual total of 39/803 but is excluded from the joint panel, whose 2018 total is 38/703. The 2020 human total of 24/805 is fully represented. Unmonitored animal outcomes were not assigned zero values. The previously ambiguous 2015 culture record with 0 positives among 99 effective cultures was identified as Ningxiang during the source audit. Inclusion decisions are summarised in Table S23. A balanced sensitivity analysis excluded 2018, leaving 80 site–years.
+The panel includes all eight sites in each year except 2018, when Yuanjiang had no rodent surveillance. Its human record (1/100) contributes to the provincial annual total of 39/803 but is excluded from the joint panel, whose 2018 total is 38/703. The 2020 human total of 24/805 is fully represented. Unmonitored animal outcomes were not assigned zero values. For forward evaluation, Yuanjiang’s 2018 human observation is retained alongside the other human records, giving 88 site–years and 292/8,934 positives/tests across 2015–2025 (Table S27). The previously ambiguous 2015 culture record with 0 positives among 99 effective cultures was identified as Ningxiang during the source audit. Inclusion decisions are summarised in Table S23. A balanced sensitivity analysis excluded 2018, leaving 80 site–years.
 
 For each site, pooled human seroreactivity was the sum of positive results divided by the sum of tests; kidney-culture positivity was the sum of recorded positive isolates divided by the sum of effective cultures; and capture yield was the sum of captured rodents divided by the sum of trap-nights. Thus, pooled rates were ratios of counts rather than unweighted averages of annual percentages. Species composition was used descriptively and was not included as a model covariate.
 
 Culture positivity was defined consistently across all study years. The printed 2023–2025 percentages of 1.92%, 11.11%, and 4.91% used submitted-culture denominators of 104, 117, and 224, respectively. The analysis used the same positive counts with the recorded effective-culture denominators: 2/606, 13/628, and 11/603. In four site–years, recorded effective cultures differed from total inoculated cultures minus contaminated tubes (Table S21). Recorded denominators were retained in the primary analysis; the arithmetic alternative was examined separately (Section S5). Aggregate records cannot establish which denominator better represents specimen-level evaluability, and agreement between analyses does not establish unbiased selection for culture.
 
 Cultured positives per trap-night was examined as a compound indicator of isolate recovery relative to trapping effort. It combines annual counts from separate surveillance records; individual capture-to-culture linkage, reasons for culture selection, and laboratory recovery probabilities were unavailable. It therefore cannot be interpreted as an independently validated measure of infected-rodent density. Likewise, MAT seroreactivity among healthy residents is an exposure marker rather than contemporaneous clinical incidence. Provincial clinical notifications lacked site-level resolution, and environmental measurements and local operational costs were unavailable.
+
+---
+
+The 2018–2022 surveillance period overlaps the earlier provincial report [1]. Its annual animal counts agree with the present ledger: 107 positive cultures among 2,900 effective cultures and 3,086 captures over 124,673 trap-nights. Human test totals also agree at 4,072. The published annual positive counts sum to 102, whereas the present site-level counts, consistent with the age-group totals, sum to 82. The differences occur in 2018 (published 58; site-level 39) and 2020 (25 and 24); the published percentages of 4.86% and 2.98% correspond to the latter counts. We use the site-level counts for site selection and scoring. Removing Yuanjiang’s unlinked 2018 record yields 81/3,972 in the joint panel for this period. Table S32 documents the yearly reconciliation; the original cause of the discrepancy has not been established.
 
 ---
 
@@ -117,7 +120,7 @@ The denominator sensitivity analysis replaced effective-culture counts with tota
 
 Exploratory analyses compared 2015–2017 with 2018–2025 and examined 2023–2025 separately (Table S19). Period boundaries were selected during review of the observed series. First, held-out observed counts from the full-panel LOYO analysis were partitioned by period while retaining the original selections. Second, LOYO selection was repeated within each period, using only the other years in that period. Neither analysis imposed a forward temporal ordering.
 
-In the full-panel decomposition, 2015–2017 accounted for 50 of the 63 additional positives covered by culture selection (79.4%); 2018–2025 accounted for the remaining 13, with no net difference in 2023–2025. Within-period reselection reduced the 2018–2025 contrast to one positive result (54/92 versus 53/92; 1.1 percentage points). Enrichment was 1.50 for culture and 1.54 for capture because the latter selected a smaller share of human tests. For 2015–2017, capture selection covered 97/199 positives after within-period reselection, compared with 96/199 under the full-panel selections. In 2023–2025, the corresponding within-period coverage was 4/11 versus 0/11 (enrichment permutation $P=0.187$); the small number of positives limits conclusions about late-period performance.
+In the full-panel decomposition, 2015–2017 accounted for 50 of the net difference of 63 covered positive results (79.4%); 2018–2025 accounted for the remaining 13, with no net difference in 2023–2025. Within-period reselection reduced the 2018–2025 contrast to one positive result (54/92 versus 53/92; 1.1 percentage points). Enrichment was 1.50 for culture and 1.54 for capture because the latter selected a smaller share of human tests. For 2015–2017, capture selection covered 97/199 positives after within-period reselection, compared with 96/199 under the full-panel selections. In 2023–2025, the corresponding within-period coverage was 4/11 versus 0/11 (enrichment permutation $P=0.187$); the small number of positives limits conclusions about late-period performance.
 
 ---
 
@@ -127,7 +130,7 @@ All $\binom{8}{k}$ site combinations for network sizes $k = 1$ to $7$ were enume
 
 Arithmetic decompositions of the $+63$ held-out positive difference ($202 - 139$) in the primary LOYO evaluation by site and by year—computed as $(I_{st}^{\text{culture}} - I_{st}^{\text{capture}})Y_{st}$—are reported in Table S5 and Table S6. Spatially, the net difference reflects Xiangtan ($+79$) and Lianyuan ($+37$) against Liuyang ($-35$) and Yuanjiang ($-18$).
 
-Pooled animal rates were untied at every boundary $k = 1$ to $7$ (Table S8). Culture ranking covered more human positives for $k = 1$ to $4$ and matched the in-sample optimal trio at $k = 3$ ($69.4\%$). Capture ranking covered more human positives for $k = 5$ to $7$: at $k = 5$, capture ranking added Xiangtan ($87.6\%$) whereas culture ranking added Junshan ($83.5\%$); at $k = 6$, coverages were $91.1\%$ versus $89.7\%$; and at $k = 7$, coverages were $97.9\%$ versus $93.1\%$ (Figure 3B).
+Pooled animal rates were untied at every boundary $k = 1$ to $7$ (Table S8). Culture ranking covered more human positives for $k = 1$ to $4$ and matched the in-sample optimal trio at $k = 3$ ($69.4\%$). Capture ranking covered more human positives for $k = 5$ to $7$: at $k = 5$, capture ranking added Xiangtan ($87.6\%$) whereas culture ranking added Junshan ($83.5\%$); at $k = 6$, coverages were $91.1\%$ versus $89.7\%$; and at $k = 7$, coverages were $97.9\%$ versus $93.1\%$ (Figure S3A).
 
 #### S6.1. Posterior utility and regret
 
@@ -141,7 +144,7 @@ $$R^{(m)}(A) = \max_{A' \in \mathcal{A}_{56}} U^{(m)}(A') - U^{(m)}(A)$$
 
 Under the primary beta-binomial model (Table S13), $A_{\text{culture}}$ achieved a posterior mean utility of $0.552$ ($55.2\%$) and expected regret of $0.034$, whereas $A_{\text{capture}}$ achieved a mean utility of $0.448$ ($44.8\%$) and expected regret of $0.139$. Averaging uniformly over the $56$ trios yields a conditional expected utility of $0.375$ in every draw, expected regret of $0.211$, and a $1 / 56$ probability of being the draw-wise best set. The constant random-strategy utility is the expectation over portfolio selection within each draw, not the distribution of utility for a single randomly chosen trio. By linearity of expectation, expected regret satisfies $\mathbb{E}[R(A_{\text{capture}}) - R(A_{\text{culture}})] = \mathbb{E}[U(A_{\text{culture}}) - U(A_{\text{capture}})]$.
 
-Writing $D$ for the observed surveillance data, within-draw paired utility differences $\Delta U^{(m)} = U^{(m)}(A_{\text{culture}}) - U^{(m)}(A_{\text{capture}})$ averaged $0.104$ ($10.4$ percentage points; $95\%$ CrI: $-0.067$ to $0.271$; Table S14). Across the $6,000$ draws, $5,311$ exceeded zero ($\Pr(\Delta U > 0 \mid D) = 88.5\%$), $3,138$ exceeded $0.10$ ($\Pr(\Delta U > 0.10 \mid D) = 52.3\%$), and $1,797$ exceeded $0.15$ ($\Pr(\Delta U > 0.15 \mid D) = 30.0\%$; Table S20). These probabilities apply to latent fixed-portfolio utility rather than the observed LOYO coverage difference. Posterior optimality among the $56$ sets had probability $33.4\%$ of draws for $A_{\text{culture}}$ versus $0.7\%$ for $A_{\text{capture}}$. A methodological comparison of LOYO coverage, full-period in-sample coverage, and posterior mean utility is presented in Table S25.
+Writing $D$ for the observed surveillance data, within-draw paired utility differences $\Delta U^{(m)} = U^{(m)}(A_{\text{culture}}) - U^{(m)}(A_{\text{capture}})$ averaged $0.104$ ($10.4$ percentage points; $95\%$ CrI: $-0.067$ to $0.271$; Table S14). Across the $6,000$ draws, $5,311$ exceeded zero ($\Pr(\Delta U > 0 \mid D) = 88.5\%$), $3,138$ exceeded $0.10$ ($\Pr(\Delta U > 0.10 \mid D) = 52.3\%$), and $1,797$ exceeded $0.15$ ($\Pr(\Delta U > 0.15 \mid D) = 30.0\%$; Table S20). These probabilities apply to latent fixed-portfolio utility rather than the observed LOYO coverage difference. Posterior optimality among the $56$ sets had probability $33.4\%$ of draws for $A_{\text{culture}}$ versus $0.7\%$ for $A_{\text{capture}}$. A methodological comparison of LOYO coverage, full-period in-sample coverage, posterior mean utility and forward coverage is presented in Table S25.
 
 #### S6.2. Prior sensitivity
 
@@ -171,7 +174,7 @@ writing the incremental cost of culture as $\Delta K = K_{\text{culture}} - K_{\
 
 The analysis used audited site–year counts, exact enumeration for permutation tests, and saved posterior draws for Bayesian summaries. Counts and extended tabulations accompany the relevant supplementary tables. Software versions and sampling settings are reported in Section S4, and random seeds are listed in Table S26. The 14 model fits comprise four primary fits, five human prior-sensitivity fits, four temporal-window fits, and one culture-denominator fit. Period decompositions and utility-threshold calculations use existing counts and posterior draws without additional model fitting.
 
-Scripts, the released aggregated site–year counts, posterior summaries, and the outputs that reproduce this analysis are publicly available at [https://github.com/xmusphlkg/leptospirosis_hunan](https://github.com/xmusphlkg/leptospirosis_hunan). Binary NetCDF posterior draws are not included; the analysis code can regenerate them from the released panel. Source surveillance workbooks and individual-level records are not in the public release.
+The aggregated site–year counts, current network-evaluation outputs, model summaries and analysis code are available in the [public leptospirosis_hunan GitHub repository](https://github.com/xmusphlkg/leptospirosis_hunan). The complete human ledger and network evaluation outputs are included in the repository and correspond to Tables S27–S33. Binary NetCDF posterior draws, source surveillance workbooks and individual-level records are not included in the public release; the released code can regenerate the model summaries from the aggregated panel.
 
 ---
 
@@ -185,9 +188,39 @@ Trapping records distinguish first- and second-half-year surveys, while culture 
 
 ---
 
+### S9. Network size and chronological evaluation
+
+#### S9.1. Evaluation populations and training rules
+
+LOYO evaluation uses the 87 jointly observed site–years. For each evaluation year, the training data comprise the other observed years; candidate sites are those represented in the evaluation-year joint panel. Each culture or capture ranking is evaluated at every $k$ from 1 to 7. The seven-site 2018 fold therefore selects all candidates at $k=7$. The focal $k=3$ results are reported in Table S4; the complete $k=1$ to $7$ curves provide the network-size comparison. Fixed-ranking comparisons use the complete 87-row panel for both ranking and scoring and are labelled separately.
+
+Forward evaluation draws on the complete 88-row human ledger; outcomes in the 64 site–years during 2018–2025 score selections derived from earlier records. Training is initialised with 2015–2017 and evaluation spans 2018–2025, comprising 64 site–years and 93 positives among 6,525 human tests. The cumulative-history rule uses records from 2015 through $t-1$ for evaluation year $t$; the recent-history rule uses $t-3$ through $t-1$. For each stream, records require valid counts and a positive denominator. Culture, capture and prior-human-serology rankings use the respective pooled numerator/denominator ratios. All eight sites have eligible historical records in each evaluated window. In particular, Yuanjiang's absence from animal surveillance in 2018 does not remove its eligibility for that year's evaluation.
+
+The prior-human-serology rule is restricted to the same historical window as the animal rules. In the full-period fixed comparison, the human ranking is labelled pooled human serology because it uses the evaluation outcomes themselves. Uniform random selection is an expectation over all subsets of $k$ eligible sites within each fold, with no Monte Carlo sampling. Calendar windows and rules were specified after the existing series had been examined. All years from 2018 through 2025 were included in forward evaluation.
+
+The operational scenario concentrates human serological sampling while retaining animal information across candidate sites. Each selected subset retains its observed testing counts; tests from unselected sites are not reassigned. Updating animal-based rankings requires continued animal surveillance across the candidate network. The prior-human-serology benchmark assumes continued human observations at all candidates. The analysis does not simulate loss of information after surveillance ceases at unselected sites. Three sites serve as the focal illustration, with all network sizes reported rather than selecting a recommended optimum.
+
+#### S9.2. Ties, selection weights and aggregation
+
+Let $w_{st}^{(r,k)}$ be the probability that site $s$ is included when rule $r$ selects $k$ sites in fold $t$. If a boundary tie spans $m$ sites and $j$ places remain after higher-ranked sites are included, each tied site receives weight $j/m$. This is equivalent to averaging uniformly over all $\binom{m}{j}$ admissible portfolios. Sites strictly above or below the boundary receive weights 1 and 0. Random selection assigns $k/n_t$ to each of the $n_t$ candidates. Selection weights sum to $k$ in every fold.
+
+With human positive count $Y_{st}$ and tested count $N_{st}$, pooled evaluation quantities are
+
+$$C_{r,k}=\frac{\sum_t\sum_s w_{st}^{(r,k)}Y_{st}}{\sum_t\sum_s Y_{st}},\qquad S_{r,k}=\frac{\sum_t\sum_s w_{st}^{(r,k)}N_{st}}{\sum_t\sum_s N_{st}},\qquad E_{r,k}=C_{r,k}/S_{r,k}.$$
+
+Thus, fractional selected counts can arise from tied or random portfolios. These are expected counts across candidate selections. Enrichment is calculated from the pooled expected counts rather than averaged over ratios for individual portfolios. In the forward evaluation, random selection has expected coverage and testing share $k/8$. In LOYO, the seven-candidate 2018 fold produces a pooled random reference that can differ from $k/8$ because years contribute different positive and testing totals. Annual zero-positive coverage is undefined; zero-positive years remain in pooled testing totals.
+
+#### S9.3. Reconciliation and uncertainty
+
+All network sizes and evaluation years are reported (Tables S28–S31). The 5,040 trajectory permutations were enumerated for the focal LOYO comparison, preserving its observation-pattern constraint and median-centred two-sided statistic (Section S2.3). The other network-size and forward summaries are descriptive evaluations. Their folds share training observations and are not treated as independent experiments. Modelled expected coverage remains the separate beta-binomial estimate defined in Section S6.1; its credible interval is not an interval for the forward coverage difference.
+
+Independent enumeration verifies the complete fold metrics, individual site weights, aggregate counts, absence of evaluation-year records from forward training, and the 2018 Yuanjiang selection and scoring. Tables S29–S30 retain the training windows and complete selection weights so that every reported total can be reconstructed.
+
+---
+
 ## 2. Supplementary Tables
 
-Tables S1–S26 report supplementary methods and results. Linked data tables provide site–year observations, posterior summaries, and complete portfolio enumerations. CrI denotes an equal-tailed credible interval; PI denotes a posterior predictive interval. Probabilities reported as 0.000 or 1.000 are rounded Monte Carlo estimates.
+Tables S1–S33 report supplementary methods and results. Linked data tables provide site–year observations, posterior summaries, and complete portfolio enumerations. CrI denotes an equal-tailed credible interval; PI denotes a posterior predictive interval. Probabilities reported as 0.000 or 1.000 are rounded Monte Carlo estimates.
 
 **Table S1. Conditional design simulation for the pooled rank-correlation test.**
 
@@ -485,7 +518,7 @@ Tables S1–S26 report supplementary methods and results. Linked data tables pro
 
 ---
 
-**Table S22. Overview of analytical estimands across the primary 87 site–year panel (2015–2025).**
+**Table S22. Overview of the historical and chronological evaluation targets.**
 
 | Estimand | Varying Quantity | Fixed / Conditioning Quantity | Primary Analytical Summary |
 | --- | --- | --- | --- |
@@ -493,6 +526,8 @@ Tables S1–S26 report supplementary methods and results. Linked data tables pro
 | Posterior ranking | Human and culture rates under independent posterior distributions | Likelihood, priors, and equal weighting of calendar years | Probability of identical top-three sets: $0.278$ under the beta-binomial model and $0.750$ under the binomial model. |
 | Historical coverage | Human trajectories within the observation pattern ($7! = 5,040$ permutations) | Animal-selected three-site sets from the other observed years (LOYO) | Culture $69.4\%$ ($E = 1.80$) vs. capture $47.8\%$ ($E = 1.28$); enrichment $P = 0.505$. Net $+63$ positives concentrated in 2015–2017 and at Xiangtan. |
 | Decision utility | Year-standardised latent human rates across posterior draws | The two candidate trios ranked from pooled animal ledgers | Beta-binomial $\Delta U = 10.4$ percentage points ($95\%$ CrI: $-6.7$ to $27.1$); $\Pr(\Delta U > 0) = 88.5\%$, $\Pr(\Delta U > 0.10) = 52.3\%$, $\Pr(\Delta U > 0.15) = 30.0\%$. |
+| Network-size coverage | Number of selected sites, $k=1$ to $7$ | Training and scoring scheme; both animal selection rules | LOYO coverage favoured culture for $k=1$–$4$ and capture for $k=5$–$7$ (Table S28). |
+| Forward coverage | Subsequent-year human results | Rankings based on previous years, common eight-site candidate set | Cumulative-history three-site coverage: culture $56/93$, capture $40/93$, prior human serology $56/93$ (Tables S28–S33). |
 
 ---
 
@@ -520,13 +555,14 @@ Tables S1–S26 report supplementary methods and results. Linked data tables pro
 
 ---
 
-**Table S25. Methodological comparison of the three portfolio coverage and utility quantities.**
+**Table S25. Methodological comparison of observed portfolio coverage and modelled expected coverage.**
 
 | Quantity | How the Three-Site Portfolio Is Chosen | Evaluation Target | Culture Result | Capture Result |
 | --- | --- | --- | --- | --- |
 | LOYO observed coverage | Animal data pooled from the other observed years | Held-out human positives pooled across 11 folds | $69.4\%$ | $47.8\%$ |
 | Full-period fixed coverage | Pooled 2015–2025 animal ranking | In-sample observed human positives across 87 site–years | $69.4\%$ | $46.4\%$ |
 | Posterior mean utility | Fixed pooled animal-ranked trio | Year-standardised latent human rates weighted by observed tests | $55.2\%$ | $44.8\%$ |
+| Forward observed coverage | Animal data pooled from 2015 through the previous year | Human results in 2018–2025 across all eight sites | $60.2\%$ | $43.0\%$ |
 
 ---
 
@@ -548,19 +584,123 @@ Tables S1–S26 report supplementary methods and results. Linked data tables pro
 
 ---
 
+**Table S27. Complete human surveillance ledger and animal-record availability, 2015–2025.**
+
+[Supplementary data](tables/table_s27_complete_human_ledger.csv). The table contains all 88 human site–years (292/8,934 positives/tests) and identifies valid records for each animal indicator. Yuanjiang 2018 has 1/100 human results and no animal monitoring; zero animal denominators identify unavailable observations, not zero positivity. The 64 human site–years in 2018–2025 provide the 93/6,525 evaluation outcomes used by both forward designs.
+
+---
+
+**Table S28. Human-positive coverage across network sizes and evaluation designs.**
+
+[Complete counts, testing shares and enrichment](tables/table_s28_network_sizes.csv). Human-rule values use prior human serology in the forward designs and full-period pooled human serology in the fixed design. The latter is an in-sample reference. Random values are expected coverage across admissible selections. All boundary ties are averaged.
+
+| Evaluation | Sites selected | Culture (%) | Capture (%) | Human rule (%) | Random (%) |
+| --- | --- | --- | --- | --- | --- |
+| Leave-one-year-out | 1 | 27.1 | 8.6 | — | 12.7 |
+| Leave-one-year-out | 2 | 41.2 | 20.6 | — | 25.5 |
+| Leave-one-year-out | 3 | 69.4 | 47.8 | — | 38.2 |
+| Leave-one-year-out | 4 | 81.4 | 65.3 | — | 50.9 |
+| Leave-one-year-out | 5 | 83.5 | 88.3 | — | 63.7 |
+| Leave-one-year-out | 6 | 89.7 | 92.4 | — | 76.4 |
+| Leave-one-year-out | 7 | 95.5 | 97.9 | — | 89.1 |
+| Forward, cumulative | 1 | 32.3 | 9.7 | 18.3 | 12.5 |
+| Forward, cumulative | 2 | 51.6 | 24.7 | 50.5 | 25.0 |
+| Forward, cumulative | 3 | 60.2 | 43.0 | 60.2 | 37.5 |
+| Forward, cumulative | 4 | 68.8 | 52.7 | 79.6 | 50.0 |
+| Forward, cumulative | 5 | 75.8 | 84.9 | 83.9 | 62.5 |
+| Forward, cumulative | 6 | 82.8 | 92.5 | 89.2 | 75.0 |
+| Forward, cumulative | 7 | 93.0 | 96.8 | 95.7 | 87.5 |
+| Forward, recent three years | 1 | 33.3 | 9.7 | 25.3 | 12.5 |
+| Forward, recent three years | 2 | 47.3 | 23.7 | 48.4 | 25.0 |
+| Forward, recent three years | 3 | 60.2 | 43.0 | 62.4 | 37.5 |
+| Forward, recent three years | 4 | 67.3 | 66.7 | 73.1 | 50.0 |
+| Forward, recent three years | 5 | 77.9 | 90.3 | 86.0 | 62.5 |
+| Forward, recent three years | 6 | 85.3 | 92.5 | 90.3 | 75.0 |
+| Forward, recent three years | 7 | 92.6 | 96.8 | 94.6 | 87.5 |
+| Full-period fixed | 1 | 27.1 | 6.2 | 28.2 | 12.5 |
+| Full-period fixed | 2 | 41.2 | 18.2 | 55.3 | 25.0 |
+| Full-period fixed | 3 | 69.4 | 46.4 | 69.4 | 37.5 |
+| Full-period fixed | 4 | 81.4 | 60.5 | 81.4 | 50.0 |
+| Full-period fixed | 5 | 83.5 | 87.6 | 88.3 | 62.5 |
+| Full-period fixed | 6 | 89.7 | 91.1 | 94.5 | 75.0 |
+| Full-period fixed | 7 | 93.1 | 97.9 | 97.9 | 87.5 |
+
+---
+
+**Table S29. Complete evaluation-year metrics for every rule and network size.**
+
+[Supplementary data](tables/table_s29_network_folds.csv). Each row identifies the design, rule, network size, evaluation year, training window, candidate count, admissible portfolios, selected and total positive counts, selected and total tests, coverage, testing share and enrichment. The 707 rows include 231 LOYO evaluations, 224 cumulative-history forward evaluations, 224 recent-three-year forward evaluations, and 28 full-period fixed comparisons. The fixed comparisons use evaluation-year code 0 to identify their pooled period. Fractional selected counts are expectations over tied or random portfolios.
+
+---
+
+**Table S30. Site-level selection weights and training counts.**
+
+[Supplementary data](tables/table_s30_selection_weights.csv). All 5,656 rows are retained, including zero weights for unselected or ineligible sites. Weights sum to the requested number of sites within each fold. The records permit reconstruction of every selected count without using evaluation-year outcomes to resolve ties. There were 65 non-random evaluation folds with a boundary tie across all designs and network sizes.
+
+---
+
+**Table S31. Period decomposition of network evaluation results.**
+
+[Supplementary data](tables/table_s31_network_periods.csv). Counts are partitioned into 2015–2017, 2018–2025 and 2023–2025 where those years belong to the evaluation design. Portfolios retain their original training windows. These decompositions differ from the within-period reselection analyses in Table S19.
+
+---
+
+**Table S32. Reconciliation with previously published surveillance counts, 2018–2022.**
+
+[Full annual comparison](tables/table_s32_publication_overlap.csv). The previous report [1] and the present analysis share the provincial surveillance programme. Animal counts and human testing totals agree annually. Published human positive counts differ in 2018 and 2020; the published percentages in those years agree with the present site-level positive counts. The primary calculations use site-level counts reconciled with the age-group tables (Section S1).
+
+| Year | Published human positives | Current human positives | Human tests | Joint-panel positives / tests |
+| --- | --- | --- | --- | --- |
+| 2018 | 58 | 39 | 803 | 38/703 |
+| 2019 | 15 | 15 | 834 | 15/834 |
+| 2020 | 25 | 24 | 805 | 24/805 |
+| 2021 | 3 | 3 | 810 | 3/810 |
+| 2022 | 1 | 1 | 820 | 1/820 |
+| Total | 102 | 82 | 4,072 | 81/3,972 |
+
+---
+
+**Table S33. Annual human-positive coverage under cumulative-history three-site selection.**
+
+[Complete annual metrics](tables/table_s33_forward_three_sites.csv). Each evaluation uses only data from earlier years. Culture and prior human serology select Lianyuan, Shuangfeng and Xiangtan in every evaluation year; capture selects Liuyang, Shuangfeng and Yuanjiang. All denominators include the eight human surveillance sites.
+
+| Evaluation year | Culture | Capture | Prior human serology |
+| --- | --- | --- | --- |
+| 2018 | 25/39 | 15/39 | 25/39 |
+| 2019 | 9/15 | 13/15 | 9/15 |
+| 2020 | 15/24 | 4/24 | 15/24 |
+| 2021 | 1/3 | 2/3 | 1/3 |
+| 2022 | 1/1 | 1/1 | 1/1 |
+| 2023 | 4/4 | 2/4 | 4/4 |
+| 2024 | 1/1 | 0/1 | 1/1 |
+| 2025 | 0/6 | 3/6 | 0/6 |
+| Total | 56/93 | 40/93 | 56/93 |
+
+---
+
 ## 3. Supplementary Figures
 
 ![Figure S1. Posterior predictive assessment](figures/figure_s1_predictive_checks.png)
 
-**Figure S1. Posterior predictive distributions of totals and zero counts.**
-Rows correspond to human MAT serology (top) and rodent kidney culture (bottom). Columns show the posterior predictive distributions for the replicated total number of positive results (left) and the number of zero-positive site–years (right). Density-scaled frequency polygons (35 bins) represent standard binomial (blue) and beta-binomial (orange) posterior predictive distributions computed from $6,000$ saved MCMC draws across the $87$ observed site–years. Vertical dashed lines mark the empirically observed values ($291$ human positives, $43$ human zero cells; $317$ culture positives, $56$ culture zero cells). Pointwise predictive intervals for individual site–year cells are provided in Table S10 and are not simultaneous.
+**Figure S1. Posterior predictive assessment of sparse human and rodent surveillance counts.** (A, B) Posterior predictive distributions of the total number of human seropositive results and the number of human zero-positive site–years. (C) Observed human-positive counts and pointwise 95% beta-binomial predictive intervals for all 87 site–years, ordered by observed count and then by year and site. (D–F) Corresponding culture-positive totals, zero-positive cells and site–year intervals. Blue and orange distributions represent the binomial and beta-binomial models, using one predictive replicate for each of 6,000 retained draws. Total-count distributions use common histogram bins within each panel; zero-count distributions use unit-width integer bins. Dashed black lines mark observed totals or zero-cell counts. In C and F, black circles fall within the predictive interval and crosses fall outside it; intervals cover 85/87 human and 87/87 culture observations. The intervals are pointwise and describe predicted counts, not uncertainty in observed counts. This comparison evaluates the count models used for the fixed-portfolio coverage analysis.
 
 ---
 
 ![Figure S2. Period and prior sensitivity](figures/figure_s2_period_prior_sensitivity.png)
 
-**Figure S2. Period structure and sensitivity of the culture-minus-capture utility difference ($\Delta U$).**
-**(A)** Pooled human MAT seroreactivity plotted against recorded rodent kidney-culture positivity partitioned into the 2015–2022 window ($63$ site–years) and the 2023–2025 window alone ($24$ site–years). **(B)** Posterior means and $95\%$ equal-tailed credible intervals for the paired portfolio utility difference ($\Delta U = U(A_{\text{culture}}) - U(A_{\text{capture}})$) under the primary beta-binomial model, the standard binomial likelihood, five one-at-a-time prior sensitivity refits (Table S18), the balanced 80-row panel (dropping 2018), and the 2015–2022 window (Table S17). The vertical dashed line marks $\Delta U = 0$.
+**Figure S2. Sensitivity of the three-site coverage comparison to records, likelihood and prior assumptions.** (A) Observed culture-minus-capture LOYO coverage differences for the full joint panel, the balanced panel excluding 2018, the 2015–2022 window, exclusion of 2015, the 2023–2025 window, and the arithmetic effective-culture denominator. Points are observed contrasts, with area proportional to the human-positive total in that evaluation; segments connect each estimate to zero and are not uncertainty intervals. Site selection is recalculated within each indicated record definition. (B) Posterior mean coverage differences and 95% credible intervals under the primary beta-binomial model and five prior modifications. (C) Distributions of paired expected-coverage differences under binomial and beta-binomial likelihoods. (D) Posterior mean expected coverage and 95% credible intervals for the fixed culture and capture trios under the primary model, the balanced-panel and 2015–2022 fits, and the binomial model. (E) Expected regret for culture, capture and uniform-random portfolios under the same four fits; regret is the coverage shortfall from the best three-site portfolio in each posterior draw. (F) Posterior probability that culture-minus-capture expected coverage exceeds each exploratory threshold from 0 to 30 percentage points, calculated directly from the retained paired draws. Panel F describes coverage gains and does not estimate monetary costs or clinical benefit. All posterior comparisons condition on fixed animal-selected trios and the testing totals for the corresponding fit; the balanced and 2015–2022 fits retain portfolios selected from the full-period animal records.
+
+---
+
+![Figure S3. Network-size sensitivity](figures/figure_s3_network_sensitivity.png)
+
+**Figure S3. How the definition of surveillance history changes network-size performance.** Coverage of human-positive results (left column) and enrichment (right column) for networks of one to seven sites. (A, B) Full-period fixed rankings, using the 87 jointly observed site–years for both selection and scoring; pooled human serology is an in-sample reference. (C, D) Forward selection using cumulative records from 2015 through the year before each evaluation. (E, F) Forward selection using only the preceding three calendar years. The two forward designs score all 64 human site–years in 2018–2025, containing 93 positives among 6,525 tests, and their prior-human-serology reference uses only earlier observations. Human-serology references are red, culture blue, capture green and the uniform-random reference teal. The shaded band marks three selected sites. All network sizes and all admissible boundary-tied selections are retained; the panels describe coverage within each evaluation design rather than independent validation datasets.
+
+---
+
+![Figure S4. Model sensitivity and site priorities](figures/figure4_model_uncertainty.png)
+
+**Figure S4. From uncertainty in site rates to agreement on surveillance priorities.** (A, B) Posterior medians and 95% credible intervals for year-standardised human seroreactivity and kidney-culture positivity under binomial and beta-binomial likelihoods. Sites are ordered by pooled human seroreactivity. (C) Full posterior probability distributions over ranks 1–8, shown separately for each stream and likelihood. (D) Marginal probabilities of top-three inclusion for human seroreactivity and culture, together with the probability that the same site belongs to both top-three sets. (E) Discrete posterior probability mass for the human–culture Spearman rank correlation; individual possible rank-correlation values are shown without kernel smoothing. (F) Posterior probability that the complete human and culture top-three sets are identical: 0.750 for the binomial model and 0.278 for the beta-binomial model. Human and culture models are fitted separately, with posterior draws paired in chain and draw order. The two likelihoods share the same mean-structure priors. Panels C–F distinguish uncertainty about individual site inclusion from uncertainty about the complete selected portfolio.
 
 ---
 

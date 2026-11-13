@@ -1,4 +1,4 @@
-model,site,joint_top3
+﻿model,site,joint_top3
 binomial,Junshan,0.0
 binomial,Lianyuan,0.75
 binomial,Liling,0.0

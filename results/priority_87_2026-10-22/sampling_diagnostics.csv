@@ -1,4 +1,4 @@
-fit,max_rhat,min_bulk_ess,min_tail_ess,divergences,draws,max_tree_depth
+﻿fit,max_rhat,min_bulk_ess,min_tail_ess,divergences,draws,max_tree_depth
 culture_arithmetic_effective,1.0026922034160224,2658.035608808172,2701.319037087437,0,4000,4
 culture_balanced80,1.002495339205469,3302.8496767445577,2476.437500684909,0,4000,4
 culture_betabinomial,1.001808866917452,4271.28966822059,4097.240940571581,0,6000,4

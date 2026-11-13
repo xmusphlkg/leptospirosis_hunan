@@ -1,4 +1,4 @@
-held_out_year,rule,eligible_sites,selected_sites,admissible_sets,all_tied_sets,positive_selected,positive_all,tested_selected,tested_all,coverage,testing_share,enrichment
+﻿held_out_year,rule,eligible_sites,selected_sites,admissible_sets,all_tied_sets,positive_selected,positive_all,tested_selected,tested_all,coverage,testing_share,enrichment
 2016,Culture,8,Lianyuan;Liuyang;Xiangtan,1,Lianyuan;Liuyang;Xiangtan,46.0,69,302.0,804,0.6666666666666666,0.3756218905472637,1.7748344370860927
 2016,Capture,8,Liuyang;Shuangfeng;Yuanjiang,1,Liuyang;Shuangfeng;Yuanjiang,22.0,69,302.0,804,0.3188405797101449,0.3756218905472637,0.8488338612150877
 2016,Compound,8,Lianyuan;Liuyang;Xiangtan,1,Lianyuan;Liuyang;Xiangtan,46.0,69,302.0,804,0.6666666666666666,0.3756218905472637,1.7748344370860927

@@ -1,4 +1,4 @@
-model,stream,site,year,index,observed,low,high
+﻿model,stream,site,year,index,observed,low,high
 betabinomial,culture,Junshan,2015,1,0,0.0,17.0
 betabinomial,culture,Lianyuan,2015,2,18,0.0,37.0
 betabinomial,culture,Liling,2015,3,0,0.0,15.0

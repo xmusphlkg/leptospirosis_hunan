@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checks": [
+    "source_panels_agree",
+    "panel_totals",
+    "legacy_k3_reproduced",
+    "exact_5040_trajectory_permutations",
+    "ties_use_exact_rational_rates",
+    "tie_order_invariance",
+    "random_portfolio_expectation",
+    "zero_positive_year_contract",
+    "forward_training_precedes_evaluation",
+    "forward_yuanjiang_2018_eligible",
+    "selection_weights_sum_to_k",
+    "saved_posterior_counts_and_utilities"
+  ],
+  "fold_rows": 707,
+  "selection_weight_rows": 5656,
+  "pooled_rows": 105,
+  "input_sha256": {
+    "data/processed/harmonized_2026-10-22/panel_complete_site_years.csv": "470cc29f9fea43f3054b73aff7f30939bd77f4802644aacc64fb372004ef5a21",
+    "data/processed/harmonized_2026-10-22/panel_all_site_years.csv": "9c748ebbb32d188e4e8a603864245c1949ae4daa55bf491a0928979886169815",
+    "script/hunan/analyze_sentinel_network.py": "209cb798d225ea040e228b0fdf3b2aa2253c6cf4504df480ca6b4e873e47fa65",
+    "output/hunan/current/priority_87_2026-10-22/human_binomial_fit.json": "3d1a2918b8e11f4eea4a62e89272c80bbf318c14eb5c69ee6df07535095c7f58",
+    "output/hunan/current/priority_87_2026-10-22/human_binomial.nc": "3130b4f81e66778292e4704d95ff56d4a33f6a28df045ffd60aafeec4f6e0290",
+    "output/hunan/current/priority_87_2026-10-22/human_betabinomial_fit.json": "8e2a12cf836fbf364ff8f3f94232a96a704f41230376f548aee96c522d34a132",
+    "output/hunan/current/priority_87_2026-10-22/human_betabinomial.nc": "5d78fdb6e3c744f736eff5054099b0c60cb723154c023094f12dae4130161200",
+    "output/hunan/current/priority_87_2026-10-22/culture_binomial_fit.json": "9bc217bd40e4054ac7323ae4c5374d111a84c3a858fbc467e53d99b986c64cf8",
+    "output/hunan/current/priority_87_2026-10-22/culture_binomial.nc": "ce24446f2bf33fe825f3b1e33713f0a55735938d3f8d2f746c0a04fea1daaee4",
+    "output/hunan/current/priority_87_2026-10-22/culture_betabinomial_fit.json": "f93ba3be01c739567fc9f15be0477ff75be3df911caeb3c0c00e23570760a4eb",
+    "output/hunan/current/priority_87_2026-10-22/culture_betabinomial.nc": "c410a05403d45bf56f3bf69e8bc98a76125f7e9ae2459f87b297348241294f1d"
+  },
+  "output_sha256": {
+    "coverage_contrasts.csv": "45cefd13387c2cb55b1424168bab03d4a117727bf83b4a62784208adf96e8407",
+    "exact_permutation_k3.csv": "4d34e6d26cf406d9e859d3e31e1225276c62a081e117c3aaa4481f8547576ab9",
+    "fold_metrics.csv": "5d9701630f78a792e529d20e5191c3c506b7ef240a1b9daa6c50bc16693610b8",
+    "period_metrics.csv": "220950f12095f3cd5efa36b560f39f306b1fb325fb75274cfd6826ed5ef17cc7",
+    "pooled_metrics.csv": "a4478ac9aa6e454b716a84f48b265bd1c9940a82fbef0e82a805ba23557adf7d",
+    "posterior_paired_draws.csv": "2ceabe0a72ceeebc45c5abfe88059d54eeccd4314e0c5ac4fd01a43d3847bdb9",
+    "posterior_site_rates.csv": "ae892a6516b16f6bc25338291be230c2f399a51b4b7c6f579c8492f992eb1b70",
+    "posterior_support.csv": "edb1479204fa77a9e23fb29c0de053734436c4aaa4b667ff8516a579839038a4",
+    "publication_overlap_counts.csv": "9f40e07c1b425d639fbd6065a8a2325f049bca408b84923d72a050a93954e611",
+    "selection_weights.csv": "69a5eada05e936085bd7efb2e8020cdc4f2c2e82568eb87c2e2b0cbaaccbc522",
+    "site_summary.csv": "eb87fb44291242143386530e0523689567a3dc622d396478cfec306651a3583f",
+    "site_year_contributions.csv": "d77bc50a65aa03c92eada51a37cf8bfd7ebbdf700e09908944c42b5db96033ac"
+  }
+}

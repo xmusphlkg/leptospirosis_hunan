@@ -1,0 +1,11 @@
+{
+  "release": "current-sentinel-network-evaluation",
+  "manuscript_title": "Selecting leptospirosis sentinel sites using rodent surveillance: a retrospective evaluation in Hunan, China, 2015–2025",
+  "observation_period": "2015–2025",
+  "joint_site_year_records": 87,
+  "complete_human_site_year_records": 88,
+  "public_data_scope": "aggregated site–year records and derived outputs",
+  "excluded": "source surveillance workbooks, individual-level records, binary posterior draws",
+  "source_repository_commit": "d0d14e7",
+  "updated": "2026-11-13"
+}

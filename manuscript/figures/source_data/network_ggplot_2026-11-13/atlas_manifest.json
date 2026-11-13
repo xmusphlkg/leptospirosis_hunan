@@ -1,0 +1,15 @@
+{
+  "inputs_sha256": {
+    "figure1_indicator_priorities.pdf": "c43e1192779700ffca0e16fd71a494bc04d9b359f726f7a32d762ef374100887",
+    "figure2_network_coverage.pdf": "68261d7ce68a0f499c1c60eabedf836d2912d59720833fc2d913248dd7f47f94",
+    "figure3_forward_evaluation.pdf": "87ba6fc5b5baf332c86931f609bcb9407e203beead556f1ca3307e51fbfd3ea2",
+    "figure_s1_predictive_checks.pdf": "4b3737bdf6bba1f749768460a35be179c0faafa7e50f25e3dbf46c2c90b56200",
+    "figure_s2_period_prior_sensitivity.pdf": "b4dc5f0a666d5d92c0202b10743c79d8ad81610a9b5df1921876d68158622156",
+    "figure_s3_network_sensitivity.pdf": "193e996a716d44872a23f50a8ad14088324a95e0febe26d758e5c8ce6897a429",
+    "figure4_model_uncertainty.pdf": "0c64bcb814e7310de1434f98fe4bd2d4a5bebd505a84fd93a63532edc5ca186e"
+  },
+  "atlas": "network_figure_atlas_2026-11-13.pdf",
+  "atlas_sha256": "2fccff1807195583339cd8845aeb9b067798976e5725a88a0e55c1fa6c7b2f78",
+  "pages": 7,
+  "builder_sha256": "d32054ce838a2770d8de9119b98bdc896e1b6b4861eb3b963d88592b315feb6a"
+}

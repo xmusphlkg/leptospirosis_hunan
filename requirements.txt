@@ -1,8 +1,20 @@
+# 全项目 Python 依赖，安装到根目录的 venv：
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 numpy>=1.26
 pandas>=2.1
 scipy>=1.11
-pymc>=5.25,<6
-nutpie>=0.16,<0.17
-arviz>=0.23
-Pillow>=10.0
+matplotlib>=3.8
+openpyxl>=3.1
 requests>=2.31
+tabulate>=0.9
+python-docx>=1.1
+Pillow>=10.0
+# Vector-PDF figure verification and native-size atlas assembly
+PyMuPDF>=1.26
+# 仅 script/hunan/analyze_serology_ode.py 使用（历史 ODE 脚本）
+numba>=0.61
+# NUTS posterior validation for the Hunan sentinel-priority analysis
+pymc>=5.25,<6
+
+# Compiled NUTS for the 87-site-year manuscript reanalysis
+nutpie>=0.16,<0.17

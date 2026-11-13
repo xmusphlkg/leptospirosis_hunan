@@ -1,4 +1,4 @@
-k,rule,n_tied_sets,coverage,minimum,maximum,selected_sets
+﻿k,rule,n_tied_sets,coverage,minimum,maximum,selected_sets
 1,Culture,1,0.27147766323024053,0.27147766323024053,0.27147766323024053,Xiangtan
 1,Capture,1,0.061855670103092786,0.061855670103092786,0.061855670103092786,Yuanjiang
 2,Culture,1,0.41237113402061853,0.41237113402061853,0.41237113402061853,Lianyuan;Xiangtan

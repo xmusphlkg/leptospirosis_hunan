@@ -1,0 +1,25 @@
+member_group,quantity,count,share,total
+Shared,"Human
+positives",82,0.281786941580756,291
+Shared,"Culture
+positives",77,0.24290220820189273,317
+Shared,"Human
+tests",1100,0.12451890423364274,8834
+Culture only,"Human
+positives",120,0.41237113402061853,291
+Culture only,"Culture
+positives",222,0.7003154574132492,317
+Culture only,"Human
+tests",2315,0.2620556939098936,8834
+Capture only,"Human
+positives",53,0.18213058419243985,291
+Capture only,"Culture
+positives",15,0.0473186119873817,317
+Capture only,"Human
+tests",2106,0.23839710210550147,8834
+Neither,"Human
+positives",36,0.12371134020618557,291
+Neither,"Culture
+positives",3,0.00946372239747634,317
+Neither,"Human
+tests",3313,0.3750282997509622,8834

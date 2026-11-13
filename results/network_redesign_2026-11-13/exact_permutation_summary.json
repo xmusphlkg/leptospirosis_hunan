@@ -1,0 +1,37 @@
+{
+  "design": "loyo87",
+  "k": 3,
+  "n_permutations": 5040,
+  "groups": [
+    [
+      "Junshan",
+      "Lianyuan",
+      "Liling",
+      "Liuyang",
+      "Ningxiang",
+      "Shuangfeng",
+      "Xiangtan"
+    ],
+    [
+      "Yuanjiang"
+    ]
+  ],
+  "coverage": {
+    "observed_difference": 0.2164948453608247,
+    "null_median": 0.06529209621993128,
+    "null_interval": [
+      -0.25773195876288657,
+      0.3745704467353952
+    ],
+    "p_two_sided": 0.4714285714285714
+  },
+  "enrichment": {
+    "observed_difference": 0.5192946436031682,
+    "null_median": 0.17300632331158264,
+    "null_interval": [
+      -0.6802184943368375,
+      0.9500814086586118
+    ],
+    "p_two_sided": 0.5047619047619047
+  }
+}

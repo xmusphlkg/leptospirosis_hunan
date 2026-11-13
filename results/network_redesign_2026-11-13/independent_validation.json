@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "implementation": "independent exhaustive combination optimisation using rational rates",
+  "folds_verified": 707,
+  "selection_weights_verified": 5656,
+  "pooled_rows_verified": 105,
+  "numerical_checks": 32336,
+  "fractional_tie_folds": 65,
+  "zero_positive_folds": 0,
+  "forward_timing": "all training years precede evaluation; Yuanjiang 2018 retained",
+  "publication_overlap": "rodent counts and human testing totals match; human numerator discrepancy documented",
+  "posterior_support": "new summaries agree with raw-NC-verified legacy outputs",
+  "independent_trajectory_permutation": {
+    "permutations": 5040,
+    "enrichment": {
+      "observed_difference": 0.5192946436031682,
+      "null_median": 0.17300632331158264,
+      "null_interval": [
+        -0.6802184943368375,
+        0.9500814086586118
+      ],
+      "p_two_sided": 0.5047619047619047
+    },
+    "coverage": {
+      "observed_difference": 0.2164948453608247,
+      "null_median": 0.06529209621993128,
+      "null_interval": [
+        -0.25773195876288657,
+        0.3745704467353952
+      ],
+      "p_two_sided": 0.4714285714285714
+    }
+  },
+  "legacy_recomputation_report": "manuscript/tables/supplementary_recompute_validation.json",
+  "inputs_sha256": {
+    "script/hunan/verify_sentinel_network.py": "8c0ed866bd14822de039e84f5c176af0e085c6ff5522389c45a4b9f94dbfabb3",
+    "data/processed/harmonized_2026-10-22/panel_all_site_years.csv": "9c748ebbb32d188e4e8a603864245c1949ae4daa55bf491a0928979886169815",
+    "data/processed/harmonized_2026-10-22/panel_complete_site_years.csv": "470cc29f9fea43f3054b73aff7f30939bd77f4802644aacc64fb372004ef5a21",
+    "output/hunan/current/network_redesign_2026-11-13/fold_metrics.csv": "5d9701630f78a792e529d20e5191c3c506b7ef240a1b9daa6c50bc16693610b8",
+    "output/hunan/current/network_redesign_2026-11-13/selection_weights.csv": "69a5eada05e936085bd7efb2e8020cdc4f2c2e82568eb87c2e2b0cbaaccbc522",
+    "output/hunan/current/network_redesign_2026-11-13/pooled_metrics.csv": "a4478ac9aa6e454b716a84f48b265bd1c9940a82fbef0e82a805ba23557adf7d",
+    "output/hunan/current/network_redesign_2026-11-13/publication_overlap_counts.csv": "9f40e07c1b425d639fbd6065a8a2325f049bca408b84923d72a050a93954e611",
+    "output/hunan/current/network_redesign_2026-11-13/site_summary.csv": "eb87fb44291242143386530e0523689567a3dc622d396478cfec306651a3583f",
+    "output/hunan/current/network_redesign_2026-11-13/posterior_support.csv": "edb1479204fa77a9e23fb29c0de053734436c4aaa4b667ff8516a579839038a4",
+    "output/hunan/current/network_redesign_2026-11-13/posterior_site_rates.csv": "ae892a6516b16f6bc25338291be230c2f399a51b4b7c6f579c8492f992eb1b70",
+    "output/hunan/current/network_redesign_2026-11-13/exact_permutation_summary.json": "fb128311f1cdeb3066b9d3e1a981da22caae319f2e95d56a232cb570b0cb4d48",
+    "output/hunan/current/network_redesign_2026-11-13/exact_permutation_k3.csv": "4d34e6d26cf406d9e859d3e31e1225276c62a081e117c3aaa4481f8547576ab9",
+    "manuscript/tables/supplementary_recompute_validation.json": "4e199bf644d932b7a4d4dc46efdfa3cbafda1b4c8b5814fc35e18c64c950fb09"
+  }
+}

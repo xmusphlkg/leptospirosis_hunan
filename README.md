@@ -1,26 +1,30 @@
-# Leptospirosis sentinel-site prioritisation in Hunan
+# Leptospirosis sentinel-site selection in Hunan
 
-Public, reproducible materials for the 2015–2025 analysis of rodent culture and capture yield for sentinel-site prioritisation. The release contains aggregated site–year counts, analysis and figure-generation code, posterior draws, manuscript tables, figures, and machine-readable results for the current 87 site–year panel.
+Public, reproducible materials for the current manuscript, **Selecting leptospirosis sentinel sites using rodent surveillance: a retrospective evaluation in Hunan, China, 2015–2025**. The release evaluates how rodent kidney-culture positivity and capture yield select sentinel sites and how their representation of recorded human seropositive results changes with network size.
 
-## Contents
+## Public contents
 
-- `data/analysis_panel.csv`: 87 aggregated site–year records from eight sites. The ten fields are defined in `data/README.md`.
-- `script/hunan/reanalyze_priority_87.py`: descriptive, model, and posterior-summary pipeline.
-- `script/hunan/plot_priority_figures.R` and `priority_figure_data.R`: rebuild the figures from saved results.
-- `results/priority_87_2026-10-22/`: current analysis summaries, diagnostics, and machine-readable results.
-- `manuscript/tables/` and `manuscript/figures/`: supplementary tables, figure source data, and final figures. The current supplement also uses `table_s10_predictive_summary.csv`, `table_s15_strategy_utility.csv`, and Tables S19–S21.
-- `manuscript/supplementary_priority_methods.md`: methods, estimands, diagnostics, and result interpretation.
+- `data/analysis_panel.csv`: 87 aggregated site–year records used for the pooled indicator, LOYO and model analyses.
+- `data/complete_human_ledger.csv`: the complete 88-row human ledger with animal-record availability for the forward evaluation.
+- `manuscript/main.md`: current manuscript source.
+- `manuscript/supplementary_priority_methods.md`: current supplementary methods and Tables S1–S33.
+- `manuscript/tables/`: current table data, including network-size, forward-evaluation and publication-reconciliation tables.
+- `manuscript/figures/`: current main and supplementary figures plus figure source data.
+- `results/network_redesign_2026-11-13/`: current network-evaluation outputs, protocols and independent validation.
+- `results/priority_87_2026-10-22/`: model-support outputs retained for the current manuscript; binary NetCDF posterior draws are omitted.
+- `script/hunan/`: analysis, verification and figure-generation scripts for the current network evaluation.
+- `script/manuscript/`: table, figure-source and validation utilities.
 
-The shared data are aggregated by site and year. The repository does not contain source workbooks, person-level records, correction evidence, archived analyses, or review drafts.
+All shared records are aggregated by site and year. The repository does not contain source surveillance workbooks, individual-level records, correction workbooks or binary posterior draws. The source ledgers are held by the Hunan Center for Disease Control and Prevention.
 
-## Reproduce
+## Reproduce the current network evaluation
 
-Install Python dependencies from `requirements.txt` in an isolated environment. The full model refit uses PyMC, nutpie, and ArviZ. Binary NetCDF posterior draws are omitted; the public panel and code can regenerate them by refitting all models.
+Install dependencies from `requirements.txt` in an isolated environment, then run:
 
 ```bash
-python script/hunan/reanalyze_priority_87.py --stage all
-python script/hunan/prepare_satellite_map.py
-Rscript script/hunan/plot_priority_figures.R manuscript/figures
+python script/hunan/analyze_sentinel_network.py
+python script/hunan/verify_sentinel_network.py
+python script/manuscript/build_network_tables.py
 ```
 
-The map-preparation script retrieves external mapping material when run; the imagery cache is excluded from this repository. The R figure script requires `ggplot2`, `patchwork`, `dplyr`, `tidyr`, `readr`, `scales`, `jsonlite`, `ncdf4`, and `digest`.
+The saved outputs in `results/network_redesign_2026-11-13/` reproduce the reported selection weights, coverage curves, forward evaluation and independent validation. Figure scripts require the R packages documented in their headers.

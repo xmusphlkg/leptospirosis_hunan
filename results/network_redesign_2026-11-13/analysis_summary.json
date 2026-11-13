@@ -1,0 +1,494 @@
+{
+  "protocol": {
+    "protocol_date": "2026-11-13",
+    "k_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "historical_design": "loyo87",
+    "forward_initialisation": [
+      2015,
+      2016,
+      2017
+    ],
+    "forward_evaluation_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "forward_updates": [
+      "expanding",
+      "rolling3"
+    ],
+    "ties": "equal weight over every boundary-tied admissible portfolio",
+    "random": "equal weight over every k-site portfolio among eligible sites",
+    "pooling": "sum selected and total counts across years before taking ratios",
+    "zero_positive_year": "coverage and enrichment undefined; retain numerator and denominator",
+    "forward_eligibility": "valid training records only, independent of current animal availability",
+    "primary_permutation": "loyo87 k=3, human trajectories exchanged only within observation-pattern groups",
+    "models": "re-summarise saved 87-site-year posterior draws without new sampling"
+  },
+  "panels": {
+    "joint87": {
+      "rows": 87,
+      "human_positive": 291,
+      "human_tested": 8834,
+      "culture_positive": 317,
+      "effective_cultures": 6824,
+      "captures": 7333,
+      "trap_nights": 270469
+    },
+    "human88": {
+      "rows": 88,
+      "human_positive": 292,
+      "human_tested": 8934
+    },
+    "forward2018_2025": {
+      "rows": 64,
+      "human_positive": 93,
+      "human_tested": 6525
+    }
+  },
+  "k3_results": [
+    {
+      "design": "loyo87",
+      "rule": "Culture",
+      "k": 3,
+      "year_start": 2015,
+      "year_end": 2025,
+      "n_folds": 11,
+      "outcome_panel": "joint87",
+      "positive_selected": 202.0,
+      "positive_all": 291.0,
+      "tested_selected": 3415.0,
+      "tested_all": 8834.0,
+      "coverage": 0.6941580756013745,
+      "testing_share": 0.38657459814353634,
+      "enrichment": 1.7956639648206567
+    },
+    {
+      "design": "loyo87",
+      "rule": "Capture",
+      "k": 3,
+      "year_start": 2015,
+      "year_end": 2025,
+      "n_folds": 11,
+      "outcome_panel": "joint87",
+      "positive_selected": 139.0,
+      "positive_all": 291.0,
+      "tested_selected": 3306.0,
+      "tested_all": 8834.0,
+      "coverage": 0.47766323024054985,
+      "testing_share": 0.37423590672402085,
+      "enrichment": 1.2763693212174885
+    },
+    {
+      "design": "loyo87",
+      "rule": "Random",
+      "k": 3,
+      "year_start": 2015,
+      "year_end": 2025,
+      "n_folds": 11,
+      "outcome_panel": "joint87",
+      "positive_selected": 111.16071428571428,
+      "positive_all": 291.0,
+      "tested_selected": 3350.410714285714,
+      "tested_all": 8834.0,
+      "coverage": 0.38199558173784975,
+      "testing_share": 0.37926315534137583,
+      "enrichment": 1.007204565900989
+    },
+    {
+      "design": "forward_expanding",
+      "rule": "Culture",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 56.0,
+      "positive_all": 93.0,
+      "tested_selected": 2512.0,
+      "tested_all": 6525.0,
+      "coverage": 0.6021505376344086,
+      "testing_share": 0.3849808429118774,
+      "enrichment": 1.5641051982740908
+    },
+    {
+      "design": "forward_expanding",
+      "rule": "Capture",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 40.0,
+      "positive_all": 93.0,
+      "tested_selected": 2400.0,
+      "tested_all": 6525.0,
+      "coverage": 0.43010752688172044,
+      "testing_share": 0.367816091954023,
+      "enrichment": 1.1693548387096775
+    },
+    {
+      "design": "forward_expanding",
+      "rule": "PastHuman",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 56.0,
+      "positive_all": 93.0,
+      "tested_selected": 2512.0,
+      "tested_all": 6525.0,
+      "coverage": 0.6021505376344086,
+      "testing_share": 0.3849808429118774,
+      "enrichment": 1.5641051982740908
+    },
+    {
+      "design": "forward_expanding",
+      "rule": "Random",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 34.875,
+      "positive_all": 93.0,
+      "tested_selected": 2446.875,
+      "tested_all": 6525.0,
+      "coverage": 0.375,
+      "testing_share": 0.375,
+      "enrichment": 1.0
+    },
+    {
+      "design": "forward_rolling3",
+      "rule": "Culture",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 56.0,
+      "positive_all": 93.0,
+      "tested_selected": 2512.0,
+      "tested_all": 6525.0,
+      "coverage": 0.6021505376344086,
+      "testing_share": 0.3849808429118774,
+      "enrichment": 1.5641051982740908
+    },
+    {
+      "design": "forward_rolling3",
+      "rule": "Capture",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 40.0,
+      "positive_all": 93.0,
+      "tested_selected": 2400.0,
+      "tested_all": 6525.0,
+      "coverage": 0.43010752688172044,
+      "testing_share": 0.367816091954023,
+      "enrichment": 1.1693548387096775
+    },
+    {
+      "design": "forward_rolling3",
+      "rule": "PastHuman",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 58.0,
+      "positive_all": 93.0,
+      "tested_selected": 2488.166666666667,
+      "tested_all": 6525.0,
+      "coverage": 0.6236559139784946,
+      "testing_share": 0.3813282247765007,
+      "enrichment": 1.6354832227381648
+    },
+    {
+      "design": "forward_rolling3",
+      "rule": "Random",
+      "k": 3,
+      "year_start": 2018,
+      "year_end": 2025,
+      "n_folds": 8,
+      "outcome_panel": "human88",
+      "positive_selected": 34.875,
+      "positive_all": 93.0,
+      "tested_selected": 2446.875,
+      "tested_all": 6525.0,
+      "coverage": 0.375,
+      "testing_share": 0.375,
+      "enrichment": 1.0
+    },
+    {
+      "design": "pooled_fixed87",
+      "rule": "Culture",
+      "k": 3,
+      "year_start": 2015,
+      "year_end": 2025,
+      "n_folds": 1,
+      "outcome_panel": "joint87",
+      "positive_selected": 202.0,
+      "positive_all": 291.0,
+      "tested_selected": 3415.0,
+      "tested_all": 8834.0,
+      "coverage": 0.6941580756013745,
+      "testing_share": 0.38657459814353634,
+      "enrichment": 1.7956639648206567
+    },
+    {
+      "design": "pooled_fixed87",
+      "rule": "Capture",
+      "k": 3,
+      "year_start": 2015,
+      "year_end": 2025,
+      "n_folds": 1,
+      "outcome_panel": "joint87",
+      "positive_selected": 135.0,
+      "positive_all": 291.0,
+      "tested_selected": 3206.0,
+      "tested_all": 8834.0,
+      "coverage": 0.4639175257731959,
+      "testing_share": 0.3629160063391442,
+      "enrichment": 1.2783054967811642
+    },
+    {
+      "design": "pooled_fixed87",
+      "rule": "HumanPooled",
+      "k": 3,
+      "year_start": 2015,
+      "year_end": 2025,
+      "n_folds": 1,
+      "outcome_panel": "joint87",
+      "positive_selected": 202.0,
+      "positive_all": 291.0,
+      "tested_selected": 3415.0,
+      "tested_all": 8834.0,
+      "coverage": 0.6941580756013745,
+      "testing_share": 0.38657459814353634,
+      "enrichment": 1.7956639648206567
+    },
+    {
+      "design": "pooled_fixed87",
+      "rule": "Random",
+      "k": 3,
+      "year_start": 2015,
+      "year_end": 2025,
+      "n_folds": 1,
+      "outcome_panel": "joint87",
+      "positive_selected": 109.125,
+      "positive_all": 291.0,
+      "tested_selected": 3312.75,
+      "tested_all": 8834.0,
+      "coverage": 0.375,
+      "testing_share": 0.375,
+      "enrichment": 1.0
+    }
+  ],
+  "rank_correlations": {
+    "human_culture": {
+      "rho": 0.7142857142857143,
+      "p_two_sided": 0.05758928571428571,
+      "n_permutations": 40320
+    },
+    "human_capture": {
+      "rho": 0.42857142857142855,
+      "p_two_sided": 0.2992063492063492,
+      "n_permutations": 40320
+    },
+    "culture_capture": {
+      "rho": 0.2857142857142857,
+      "p_two_sided": 0.5007936507936508,
+      "n_permutations": 40320
+    }
+  },
+  "trajectory_permutation": {
+    "design": "loyo87",
+    "k": 3,
+    "n_permutations": 5040,
+    "groups": [
+      [
+        "Junshan",
+        "Lianyuan",
+        "Liling",
+        "Liuyang",
+        "Ningxiang",
+        "Shuangfeng",
+        "Xiangtan"
+      ],
+      [
+        "Yuanjiang"
+      ]
+    ],
+    "coverage": {
+      "observed_difference": 0.2164948453608247,
+      "null_median": 0.06529209621993128,
+      "null_interval": [
+        -0.25773195876288657,
+        0.3745704467353952
+      ],
+      "p_two_sided": 0.4714285714285714
+    },
+    "enrichment": {
+      "observed_difference": 0.5192946436031682,
+      "null_median": 0.17300632331158264,
+      "null_interval": [
+        -0.6802184943368375,
+        0.9500814086586118
+      ],
+      "p_two_sided": 0.5047619047619047
+    }
+  },
+  "k_by_coverage_direction": {
+    "forward_expanding": {
+      "culture_higher": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "capture_higher": [
+        5,
+        6,
+        7
+      ]
+    },
+    "forward_rolling3": {
+      "culture_higher": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "capture_higher": [
+        5,
+        6,
+        7
+      ]
+    },
+    "loyo87": {
+      "culture_higher": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "capture_higher": [
+        5,
+        6,
+        7
+      ]
+    },
+    "pooled_fixed87": {
+      "culture_higher": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "capture_higher": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "forward_culture_past_human_same_k3_years": 8,
+  "nonrandom_tied_folds": 65,
+  "posterior_support": [
+    {
+      "family": "binomial",
+      "estimand": "fixed_portfolio_expected_coverage",
+      "rule": "Culture",
+      "k": 3,
+      "draws": 6000,
+      "mean": 0.6789249710671751,
+      "median": 0.6792401154329588,
+      "low": 0.6264463016485392,
+      "high": 0.7285673423453614,
+      "probability_gt_zero": null,
+      "probability_gt_10pp": null
+    },
+    {
+      "family": "binomial",
+      "estimand": "fixed_portfolio_expected_coverage",
+      "rule": "Capture",
+      "k": 3,
+      "draws": 6000,
+      "mean": 0.4503892821114019,
+      "median": 0.45047183074158875,
+      "low": 0.3976257740196598,
+      "high": 0.5021343768178249,
+      "probability_gt_zero": null,
+      "probability_gt_10pp": null
+    },
+    {
+      "family": "binomial",
+      "estimand": "paired_expected_coverage_difference",
+      "rule": "Culture-Capture",
+      "k": 3,
+      "draws": 6000,
+      "mean": 0.22853568895577306,
+      "median": 0.2286629903865235,
+      "low": 0.14786788322578487,
+      "high": 0.30826463126192877,
+      "probability_gt_zero": 1.0,
+      "probability_gt_10pp": 0.999
+    },
+    {
+      "family": "betabinomial",
+      "estimand": "fixed_portfolio_expected_coverage",
+      "rule": "Culture",
+      "k": 3,
+      "draws": 6000,
+      "mean": 0.5518429321974421,
+      "median": 0.5521500957844298,
+      "low": 0.4369129323309001,
+      "high": 0.6619995391870985,
+      "probability_gt_zero": null,
+      "probability_gt_10pp": null
+    },
+    {
+      "family": "betabinomial",
+      "estimand": "fixed_portfolio_expected_coverage",
+      "rule": "Capture",
+      "k": 3,
+      "draws": 6000,
+      "mean": 0.44758060429914326,
+      "median": 0.4475644576206981,
+      "low": 0.33765401585694327,
+      "high": 0.5591881986556845,
+      "probability_gt_zero": null,
+      "probability_gt_10pp": null
+    },
+    {
+      "family": "betabinomial",
+      "estimand": "paired_expected_coverage_difference",
+      "rule": "Culture-Capture",
+      "k": 3,
+      "draws": 6000,
+      "mean": 0.10426232789829881,
+      "median": 0.10566975088673342,
+      "low": -0.06727105874305651,
+      "high": 0.27115101893597765,
+      "probability_gt_zero": 0.8851666666666667,
+      "probability_gt_10pp": 0.523
+    }
+  ]
+}

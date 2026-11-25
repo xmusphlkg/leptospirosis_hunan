@@ -10,8 +10,8 @@ args <- commandArgs(trailingOnly=TRUE)
 out <- if(length(args)) args[1] else file.path(root,"manuscript/figures")
 dir.create(out,recursive=TRUE,showWarnings=FALSE)
 out <- normalizePath(out)
-network_dir <- file.path(root,"output/hunan/current/network_redesign_2026-11-13")
-legacy_dir <- file.path(root,"output/hunan/current/priority_87_2026-10-22")
+network_dir <- file.path(root,"results/network_redesign_2026-11-13")
+legacy_dir <- file.path(root,"results/priority_87_2026-10-22")
 source_dir <- file.path(out,"source_data/network_ggplot_2026-11-13")
 dir.create(source_dir,recursive=TRUE,showWarnings=FALSE)
 modules <- c("network_plot_common.R","network_figures_13.R",
@@ -42,7 +42,7 @@ panel_hashes <- setNames(lapply(file.path(source_dir,panel_paths),hash),panel_pa
 script_paths <- c(file.path(root,"script/hunan/plot_sentinel_network.R"),
                   file.path(root,"script/hunan",modules))
 output_hashes <- setNames(lapply(.figure_outputs,hash),basename(.figure_outputs))
-stopifnot(length(.figure_specs)==7,length(.figure_outputs)==14,
+stopifnot(length(.figure_specs)==7,length(.figure_outputs)==17,
           all(vapply(.figure_specs,function(x)x$panel_count,integer(1))>=6))
 manifest <- list(
   engine="ggplot2",composition="patchwork",style="Hunan eight-colour theme_bw",

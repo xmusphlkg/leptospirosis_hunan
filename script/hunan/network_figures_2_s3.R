@@ -129,7 +129,7 @@ build_figures_2_s3 <- function() {
   figure <- ((a | b | c) / (d | e | f)) +
     plot_layout(heights = c(1, 1), guides = "collect") &
     theme(legend.position = "bottom", legend.box = "horizontal")
-  save_network_figure(figure, stem, width = 18, height = 10.7)
+  save_network_figure(figure, stem, width = 18, height = 10.7, main_figure = TRUE)
 
   # Six panels, each with one comparison design and one coverage estimand.
   sensitivity_stem <- "figure_s3_network_sensitivity"

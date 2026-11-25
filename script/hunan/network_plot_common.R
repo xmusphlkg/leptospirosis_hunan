@@ -81,7 +81,7 @@ site_factor <- function(x) factor(x,levels=rev(display_order))
 rule_colour_scale <- function(...) scale_colour_manual(values=rule_colors,labels=rule_labels,name=NULL,...)
 rule_fill_scale <- function(...) scale_fill_manual(values=rule_colors,labels=rule_labels,name=NULL,...)
 
-save_network_figure <- function(plot,stem,width=17,height=10.5) {
+save_network_figure <- function(plot,stem,width=17,height=10.5,main_figure=FALSE) {
   keys <- vapply(.panel_registry,function(x)x$figure,character(1))==stem
   tags <- unique(vapply(.panel_registry[keys],function(x)x$panel,character(1)))
   stopifnot(length(tags)>=6, all(LETTERS[seq_along(tags)] %in% tags))
@@ -97,9 +97,11 @@ save_network_figure <- function(plot,stem,width=17,height=10.5) {
   .figure_specs[[stem]] <<- list(panels=sort(tags), panel_count=length(tags),
                                 width_inches=width,height_inches=height,dpi=320,
                                 engine="ggplot2",composition="patchwork")
-  for(ext in c("png","pdf")) {
+  for(ext in c("png","pdf",if(main_figure) "tif")) {
     target <- file.path(out,paste0(stem,".",ext))
     if(ext=="png") ggsave(target,plot,width=width,height=height,dpi=320,bg="white",limitsize=FALSE)
+    else if(ext=="tif") ggsave(target,plot,width=width,height=height,device="tiff",
+                              dpi=320,compression="lzw",bg="white",limitsize=FALSE)
     else ggsave(target,plot,width=width,height=height,device=grDevices::cairo_pdf,bg="white",limitsize=FALSE)
     .figure_outputs <<- c(.figure_outputs,normalizePath(target))
   }

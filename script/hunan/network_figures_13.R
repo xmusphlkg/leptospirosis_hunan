@@ -123,7 +123,7 @@ build_figures_13 <- function() {
   fig1 <- ((f1a+f1b+f1c)+plot_layout(widths=c(1.45,1,1))) /
           ((f1d+f1e+f1f)+plot_layout(widths=c(1.45,1,1)))
   fig1 <- fig1 + plot_layout(heights=c(1,1),guides="keep")
-  save_network_figure(fig1,stem1,width=18,height=10.8)
+  save_network_figure(fig1,stem1,width=18,height=10.8,main_figure=TRUE)
 
   stem3 <- "figure3_forward_evaluation"
   forward <- folds |> filter(design=="forward_expanding",k==3) |>
@@ -240,6 +240,6 @@ build_figures_13 <- function() {
   fig3 <- ((f3a+f3b+f3c)+plot_layout(widths=c(1.12,1.3,1))) /
           ((f3d+f3e+f3f)+plot_layout(widths=c(1.12,1.3,1)))
   fig3 <- fig3 + plot_layout(heights=c(1,1),guides="keep")
-  save_network_figure(fig3,stem3,width=18,height=10.8)
+  save_network_figure(fig3,stem3,width=18,height=10.8,main_figure=TRUE)
   invisible(list(figure1=fig1,figure3=fig3))
 }

@@ -21,8 +21,8 @@ import xarray as xr
 
 
 ROOT = Path(__file__).resolve().parents[2]
-NETWORK = ROOT / "output/hunan/current/network_redesign_2026-11-13"
-LEGACY = ROOT / "output/hunan/current/priority_87_2026-10-22"
+NETWORK = ROOT / "results/network_redesign_2026-11-13"
+LEGACY = ROOT / "results/priority_87_2026-10-22"
 DEFAULT_SOURCE = ROOT / "manuscript/figures/source_data/network_ggplot_2026-11-13"
 FIGURES = [
     "figure1_indicator_priorities", "figure2_network_coverage", "figure3_forward_evaluation",
@@ -86,7 +86,9 @@ def verify_manifest(source: Path):
     manifest = json.loads(path.read_text())
     assert manifest["engine"] == "ggplot2" and manifest["composition"] == "patchwork"
     assert set(manifest["figures"]) == set(FIGURES)
-    assert len(manifest["outputs_sha256"]) == 14
+    main_figures = FIGURES[:3]
+    expected = {f"{stem}.{ext}" for stem in FIGURES for ext in ("png", "pdf")}
+    assert set(manifest["outputs_sha256"]) == expected | {f"{stem}.tif" for stem in main_figures}
     assert manifest["script"] == "script/hunan/plot_sentinel_network.R"
     assert sha256(ROOT/manifest["script"]) == manifest["script_sha256"]
     for name, digest in manifest["scripts_sha256"].items():
@@ -112,6 +114,12 @@ def verify_manifest(source: Path):
         image = Image.open(source.parent.parent/f"{stem}.png")
         assert abs(image.width - spec["width_inches"]*spec["dpi"]) <= 2
         assert abs(image.height - spec["height_inches"]*spec["dpi"]) <= 2
+        if stem in main_figures:
+            with Image.open(source.parent.parent/f"{stem}.tif") as tif:
+                assert tif.format == "TIFF" and tif.size == image.size, stem
+                assert tif.info["dpi"] == (spec["dpi"], spec["dpi"]), stem
+                assert tif.info["compression"] == "tiff_lzw", stem
+                tif.load()
         pdf = pymupdf.open(source.parent.parent/f"{stem}.pdf")
         assert len(pdf) == 1
         words = {w[4] for w in pdf[0].get_text("words")}
@@ -368,9 +376,14 @@ def verify_rank_panels(source):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-dir", type=Path, default=DEFAULT_SOURCE)
+    parser.add_argument("--figures-only", action="store_true",
+                        help="Check rebuilt figure files, panel sources and hashes using public inputs.")
     args = parser.parse_args()
     source = args.source_dir.resolve()
     manifest = verify_manifest(source)
+    if args.figures_only:
+        print(f"Verified {len(manifest['outputs_sha256'])} figure files and {len(manifest['panels'])} panels.")
+        return
     sites = read(NETWORK/"site_summary.csv")
     pooled = read(NETWORK/"pooled_metrics.csv")
     folds = read(NETWORK/"fold_metrics.csv")
